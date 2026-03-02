@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "scorec/omega_h"
+  },
+  "nodes": [
+    {
+      "id": "scorec/omega_h",
+      "label": "omega_h",
+      "type": "library",
+      "data": {
+        "packageName": "omega_h",
+        "packageOwner": "scorec",
+        "originUrl": "https://github.com/scorec/omega_h",
+        "commitSha": "3cd28bcd667247e012f5e2f7a744f927d4fbed7f",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 3,
+        "contributors": 19,
+        "commits": 5680,
+        "lastUpdate": "2026-02-18T20:45:34Z",
+        "latestRelease": "",
+        "license": "Other",
+        "isFork": true,
+        "description": "Simplex mesh adaptivity for HPC",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
