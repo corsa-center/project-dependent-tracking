@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "berkeleylab/upcxx"
+  },
+  "nodes": [
+    {
+      "id": "berkeleylab/upcxx",
+      "label": "upcxx",
+      "type": "library",
+      "data": {
+        "packageName": "upcxx",
+        "packageOwner": "berkeleylab",
+        "originUrl": "https://github.com/berkeleylab/upcxx",
+        "commitSha": "HEAD",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 0,
+        "contributors": 0,
+        "commits": 0,
+        "lastUpdate": "",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
