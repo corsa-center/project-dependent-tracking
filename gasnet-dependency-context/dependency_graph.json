@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "berkeleylab/gasnet"
+  },
+  "nodes": [
+    {
+      "id": "berkeleylab/gasnet",
+      "label": "gasnet",
+      "type": "library",
+      "data": {
+        "packageName": "gasnet",
+        "packageOwner": "berkeleylab",
+        "originUrl": "https://github.com/berkeleylab/gasnet",
+        "commitSha": "HEAD",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 0,
+        "contributors": 0,
+        "commits": 0,
+        "lastUpdate": "",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
