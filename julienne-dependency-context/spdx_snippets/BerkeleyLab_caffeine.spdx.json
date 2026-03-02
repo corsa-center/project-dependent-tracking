@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "caffeine Dependency Manifest",
+  "documentNamespace": "https://github.com/BerkeleyLab/caffeine/spdx/8973ee77b1c639e8f628d351d0a507f342bbd088",
+  "packages": [
+    {
+      "name": "caffeine",
+      "SPDXID": "SPDXRef-Package-BerkeleyLab-caffeine",
+      "versionInfo": "8973ee77b1c639e8f628d351d0a507f342bbd088",
+      "downloadLocation": "git+https://github.com/BerkeleyLab/caffeine.git@8973ee77b1c639e8f628d351d0a507f342bbd088",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "julienne",
+      "SPDXID": "SPDXRef-Package-BerkeleyLab-julienne",
+      "versionInfo": "0d2d545696f255771ed96e74d019151079ec502d",
+      "downloadLocation": "git+https://github.com/BerkeleyLab/julienne.git@0d2d545696f255771ed96e74d019151079ec502d",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-BerkeleyLab-caffeine",
+      "relatedSpdxElement": "SPDXRef-Package-BerkeleyLab-julienne",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

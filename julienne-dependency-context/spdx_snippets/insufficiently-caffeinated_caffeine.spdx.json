@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "caffeine Dependency Manifest",
+  "documentNamespace": "https://github.com/insufficiently-caffeinated/caffeine/spdx/57cce7ddae05dd7d886937d4abdc12f2b1316061",
+  "packages": [
+    {
+      "name": "caffeine",
+      "SPDXID": "SPDXRef-Package-insufficiently-caffeinated-caffeine",
+      "versionInfo": "57cce7ddae05dd7d886937d4abdc12f2b1316061",
+      "downloadLocation": "git+https://github.com/insufficiently-caffeinated/caffeine.git@57cce7ddae05dd7d886937d4abdc12f2b1316061",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "caffeine",
+      "SPDXID": "SPDXRef-Package-BerkeleyLab-caffeine",
+      "versionInfo": "8973ee77b1c639e8f628d351d0a507f342bbd088",
+      "downloadLocation": "git+https://github.com/BerkeleyLab/caffeine.git@8973ee77b1c639e8f628d351d0a507f342bbd088",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-insufficiently-caffeinated-caffeine",
+      "relatedSpdxElement": "SPDXRef-Package-BerkeleyLab-caffeine",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

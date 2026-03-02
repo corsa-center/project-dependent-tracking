@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "julienne Dependency Manifest",
+  "documentNamespace": "https://github.com/BerkeleyLab/julienne/spdx/0d2d545696f255771ed96e74d019151079ec502d",
+  "packages": [
+    {
+      "name": "julienne",
+      "SPDXID": "SPDXRef-Package-BerkeleyLab-julienne",
+      "versionInfo": "0d2d545696f255771ed96e74d019151079ec502d",
+      "downloadLocation": "git+https://github.com/BerkeleyLab/julienne.git@0d2d545696f255771ed96e74d019151079ec502d",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "julienne",
+      "SPDXID": "SPDXRef-Package-berkeleylab-julienne",
+      "versionInfo": "0d2d545696f255771ed96e74d019151079ec502d",
+      "downloadLocation": "git+https://github.com/berkeleylab/julienne.git@0d2d545696f255771ed96e74d019151079ec502d",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-BerkeleyLab-julienne",
+      "relatedSpdxElement": "SPDXRef-Package-berkeleylab-julienne",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

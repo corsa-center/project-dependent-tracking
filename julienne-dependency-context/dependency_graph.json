@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "root": "berkeleylab/julienne"
+  },
+  "nodes": [
+    {
+      "id": "berkeleylab/julienne",
+      "label": "julienne",
+      "type": "library",
+      "data": {
+        "packageName": "julienne",
+        "packageOwner": "berkeleylab",
+        "originUrl": "https://github.com/berkeleylab/julienne",
+        "commitSha": "0d2d545696f255771ed96e74d019151079ec502d",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 42,
+        "contributors": 6,
+        "commits": 660,
+        "lastUpdate": "2026-03-01T06:21:37Z",
+        "latestRelease": "2024-08-12T22:30:57Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "A Fortran 2023 correctness-checking framework supporting expressive idioms for writing assertions and tests",
+        "paper": null
+      }
+    },
+    {
+      "id": "BerkeleyLab/fiats",
+      "label": "fiats",
+      "type": "consumer",
+      "data": {
+        "packageName": "fiats",
+        "packageOwner": "BerkeleyLab",
+        "originUrl": "/r/github.com/BerkeleyLab/fiats",
+        "commitSha": "0a2ff33cf8c06c6379d8e8883e846577a29f2f5e",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/BerkeleyLab_fiats.spdx.json",
+        "stars": 70,
+        "contributors": 16,
+        "commits": 1269,
+        "lastUpdate": "2026-02-19T20:00:03Z",
+        "latestRelease": "2022-11-22T02:08:51Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "A deep learning library for use in high-performance computing applications in modern Fortran",
+        "paper": null
+      }
+    },
+    {
+      "id": "BerkeleyLab/caffeine",
+      "label": "caffeine",
+      "type": "consumer",
+      "data": {
+        "packageName": "caffeine",
+        "packageOwner": "BerkeleyLab",
+        "originUrl": "/r/github.com/BerkeleyLab/caffeine",
+        "commitSha": "8973ee77b1c639e8f628d351d0a507f342bbd088",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/BerkeleyLab_caffeine.spdx.json",
+        "stars": 56,
+        "contributors": 10,
+        "commits": 1118,
+        "lastUpdate": "2026-03-02T12:25:27Z",
+        "latestRelease": "2022-03-04T01:07:22Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "A parallel runtime library for Fortran compilers",
+        "paper": null
+      }
+    },
+    {
+      "id": "BerkeleyLab/julienne",
+      "label": "julienne",
+      "type": "consumer",
+      "data": {
+        "packageName": "julienne",
+        "packageOwner": "BerkeleyLab",
+        "originUrl": "/r/github.com/BerkeleyLab/julienne",
+        "commitSha": "0d2d545696f255771ed96e74d019151079ec502d",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/BerkeleyLab_julienne.spdx.json",
+        "stars": 42,
+        "contributors": 6,
+        "commits": 660,
+        "lastUpdate": "2026-03-01T06:21:37Z",
+        "latestRelease": "2024-08-12T22:30:57Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "A Fortran 2023 correctness-checking framework supporting expressive idioms for writing assertions and tests",
+        "paper": null
+      }
+    },
+    {
+      "id": "NeoLoader/NeoLoader",
+      "label": "NeoLoader",
+      "type": "consumer",
+      "data": {
+        "packageName": "NeoLoader",
+        "packageOwner": "NeoLoader",
+        "originUrl": "/r/github.com/NeoLoader/NeoLoader",
+        "commitSha": "67c9b642054ead500832406a9c301a7b4cbfffd3",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/NeoLoader_NeoLoader.spdx.json",
+        "stars": 138,
+        "contributors": 2,
+        "commits": 1,
+        "lastUpdate": "2026-02-16T22:21:09Z",
+        "latestRelease": "2018-09-02T12:42:57Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "NeoLoader Source Code",
+        "paper": null
+      }
+    },
+    {
+      "id": "purine/purine2",
+      "label": "purine2",
+      "type": "consumer",
+      "data": {
+        "packageName": "purine2",
+        "packageOwner": "purine",
+        "originUrl": "/r/github.com/purine/purine2",
+        "commitSha": "e53447da173e83fb62bae8cf50bde17f75723203",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/purine_purine2.spdx.json",
+        "stars": 256,
+        "contributors": 2,
+        "commits": 101,
+        "lastUpdate": "2024-09-20T18:53:51Z",
+        "latestRelease": "",
+        "license": "BSD 2-Clause \"Simplified\" License",
+        "isFork": false,
+        "description": "Purified Purine.",
+        "paper": null
+      }
+    },
+    {
+      "id": "insufficiently-caffeinated/caffeine",
+      "label": "caffeine",
+      "type": "consumer",
+      "data": {
+        "packageName": "caffeine",
+        "packageOwner": "insufficiently-caffeinated",
+        "originUrl": "/r/github.com/insufficiently-caffeinated/caffeine",
+        "commitSha": "57cce7ddae05dd7d886937d4abdc12f2b1316061",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/insufficiently-caffeinated_caffeine.spdx.json",
+        "stars": 51,
+        "contributors": 6,
+        "commits": 617,
+        "lastUpdate": "2025-12-08T13:58:13Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "A symbolic execution engine for LLVM IR",
+        "paper": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "BerkeleyLab/fiats",
+      "target": "berkeleylab/julienne"
+    },
+    {
+      "source": "BerkeleyLab/caffeine",
+      "target": "berkeleylab/julienne"
+    },
+    {
+      "source": "BerkeleyLab/julienne",
+      "target": "berkeleylab/julienne"
+    },
+    {
+      "source": "NeoLoader/NeoLoader",
+      "target": "BerkeleyLab/caffeine"
+    },
+    {
+      "source": "purine/purine2",
+      "target": "BerkeleyLab/caffeine"
+    },
+    {
+      "source": "insufficiently-caffeinated/caffeine",
+      "target": "BerkeleyLab/caffeine"
+    },
+    {
+      "source": "BerkeleyLab/fiats",
+      "target": "BerkeleyLab/julienne"
+    },
+    {
+      "source": "BerkeleyLab/caffeine",
+      "target": "BerkeleyLab/julienne"
+    }
+  ]
+}
