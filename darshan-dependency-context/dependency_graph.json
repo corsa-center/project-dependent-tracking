@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "darshan-hpc/darshan"
+  },
+  "nodes": [
+    {
+      "id": "darshan-hpc/darshan",
+      "label": "darshan",
+      "type": "library",
+      "data": {
+        "packageName": "darshan",
+        "packageOwner": "darshan-hpc",
+        "originUrl": "https://github.com/darshan-hpc/darshan",
+        "commitSha": "bd278943e8d457f85531e7d29b8b39e5957a40f4",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 71,
+        "contributors": 23,
+        "commits": 3035,
+        "lastUpdate": "2026-02-18T17:11:22Z",
+        "latestRelease": "2025-10-20T19:56:35Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "  Darshan I/O characterization tool",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
