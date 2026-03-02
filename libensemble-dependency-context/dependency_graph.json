@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "root": "libensemble/libensemble"
+  },
+  "nodes": [
+    {
+      "id": "libensemble/libensemble",
+      "label": "libensemble",
+      "type": "library",
+      "data": {
+        "packageName": "libensemble",
+        "packageOwner": "libensemble",
+        "originUrl": "https://github.com/libensemble/libensemble",
+        "commitSha": "5d189fef681b52ed1af0cc4a7799ab9a72c16294",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 75,
+        "contributors": 26,
+        "commits": 8534,
+        "lastUpdate": "2026-01-13T14:37:37Z",
+        "latestRelease": "2017-11-30T14:15:54Z",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "A Python toolkit for coordinating asynchronous and dynamic ensembles of calculations.",
+        "paper": null
+      }
+    },
+    {
+      "id": "Quantum-Dynamics-Hub/libra-code",
+      "label": "libra-code",
+      "type": "consumer",
+      "data": {
+        "packageName": "libra-code",
+        "packageOwner": "Quantum-Dynamics-Hub",
+        "originUrl": "/r/github.com/Quantum-Dynamics-Hub/libra-code",
+        "commitSha": "1b5a2dfa84bdd03bd8715b1c76a76c60f44c0252",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/Quantum-Dynamics-Hub_libra-code.spdx.json",
+        "stars": 54,
+        "contributors": 18,
+        "commits": 2250,
+        "lastUpdate": "2026-02-21T18:07:26Z",
+        "latestRelease": "2019-12-28T23:53:07Z",
+        "license": "GNU General Public License v3.0",
+        "isFork": false,
+        "description": null,
+        "paper": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Quantum-Dynamics-Hub/libra-code",
+      "target": "libensemble/libensemble"
+    }
+  ]
+}

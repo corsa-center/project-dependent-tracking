@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "libra-code Dependency Manifest",
+  "documentNamespace": "https://github.com/Quantum-Dynamics-Hub/libra-code/spdx/1b5a2dfa84bdd03bd8715b1c76a76c60f44c0252",
+  "packages": [
+    {
+      "name": "libra-code",
+      "SPDXID": "SPDXRef-Package-Quantum-Dynamics-Hub-libra-code",
+      "versionInfo": "1b5a2dfa84bdd03bd8715b1c76a76c60f44c0252",
+      "downloadLocation": "git+https://github.com/Quantum-Dynamics-Hub/libra-code.git@1b5a2dfa84bdd03bd8715b1c76a76c60f44c0252",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "libensemble",
+      "SPDXID": "SPDXRef-Package-libensemble-libensemble",
+      "versionInfo": "5d189fef681b52ed1af0cc4a7799ab9a72c16294",
+      "downloadLocation": "git+https://github.com/libensemble/libensemble.git@5d189fef681b52ed1af0cc4a7799ab9a72c16294",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-Quantum-Dynamics-Hub-libra-code",
+      "relatedSpdxElement": "SPDXRef-Package-libensemble-libensemble",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
