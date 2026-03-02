@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "root": "deephyper/deephyper"
+  },
+  "nodes": [
+    {
+      "id": "deephyper/deephyper",
+      "label": "deephyper",
+      "type": "library",
+      "data": {
+        "packageName": "deephyper",
+        "packageOwner": "deephyper",
+        "originUrl": "https://github.com/deephyper/deephyper",
+        "commitSha": "7cd3f019032832be1f195c08a5fd26fe827f1483",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 304,
+        "contributors": 27,
+        "commits": 3199,
+        "lastUpdate": "2026-02-22T23:15:49Z",
+        "latestRelease": "2019-09-05T14:28:04Z",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "DeepHyper: A Python Package for Massively Parallel Hyperparameter Optimization in Machine Learning",
+        "paper": {
+          "title": "DeepHyper: A Python Package for Massively Parallel Hyperparameter Optimization in Machine Learning",
+          "doi": "10.21105/joss.07975",
+          "journal": "Journal of Open Source Software",
+          "citations": 0,
+          "url": "https://doi.org/10.21105/joss.07975"
+        }
+      }
+    }
+  ],
+  "edges": []
+}
