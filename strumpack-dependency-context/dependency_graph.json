@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "pghysels/strumpack"
+  },
+  "nodes": [
+    {
+      "id": "pghysels/strumpack",
+      "label": "strumpack",
+      "type": "library",
+      "data": {
+        "packageName": "strumpack",
+        "packageOwner": "pghysels",
+        "originUrl": "https://github.com/pghysels/strumpack",
+        "commitSha": "cfba574f60b792433ee87e7e2a874eeb96c74d1f",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 190,
+        "contributors": 15,
+        "commits": 2114,
+        "lastUpdate": "2026-02-28T05:37:06Z",
+        "latestRelease": "2021-10-27T06:42:10Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Structured Matrix Package (LBNL)",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
