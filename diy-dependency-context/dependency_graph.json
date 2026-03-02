@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "diatomic/diy"
+  },
+  "nodes": [
+    {
+      "id": "diatomic/diy",
+      "label": "diy",
+      "type": "library",
+      "data": {
+        "packageName": "diy",
+        "packageOwner": "diatomic",
+        "originUrl": "https://github.com/diatomic/diy",
+        "commitSha": "4773e448517a52cb6b12a1d201983332859d3066",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 50,
+        "contributors": 19,
+        "commits": 946,
+        "lastUpdate": "2026-02-11T20:53:38Z",
+        "latestRelease": "2016-10-20T14:35:39Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "data-parallel out-of-core library",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
