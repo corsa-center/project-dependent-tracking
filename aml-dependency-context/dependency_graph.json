@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "anlsys/aml"
+  },
+  "nodes": [
+    {
+      "id": "anlsys/aml",
+      "label": "aml",
+      "type": "library",
+      "data": {
+        "packageName": "aml",
+        "packageOwner": "anlsys",
+        "originUrl": "https://github.com/anlsys/aml",
+        "commitSha": "85c5595a7d3c85df450bc89eb3c9f549823978b0",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 5,
+        "contributors": 7,
+        "commits": 515,
+        "lastUpdate": "2026-02-04T01:43:06Z",
+        "latestRelease": "2021-12-03T05:24:34Z",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "Building Blocks for Explicit Memory Management on Complex Architectures",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
