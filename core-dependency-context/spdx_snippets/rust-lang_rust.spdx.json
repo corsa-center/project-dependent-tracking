@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "rust Dependency Manifest",
+  "documentNamespace": "https://github.com/rust-lang/rust/spdx/8ddf4ef064fb702fed0f3d239ec8d0bac607484e",
+  "packages": [
+    {
+      "name": "rust",
+      "SPDXID": "SPDXRef-Package-rust-lang-rust",
+      "versionInfo": "8ddf4ef064fb702fed0f3d239ec8d0bac607484e",
+      "downloadLocation": "git+https://github.com/rust-lang/rust.git@8ddf4ef064fb702fed0f3d239ec8d0bac607484e",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-rust-lang-rust",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

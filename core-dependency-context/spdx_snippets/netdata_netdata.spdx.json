@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "netdata Dependency Manifest",
+  "documentNamespace": "https://github.com/netdata/netdata/spdx/cee7787b2553e25f1ba37933d35a55d82e3e00ed",
+  "packages": [
+    {
+      "name": "netdata",
+      "SPDXID": "SPDXRef-Package-netdata-netdata",
+      "versionInfo": "cee7787b2553e25f1ba37933d35a55d82e3e00ed",
+      "downloadLocation": "git+https://github.com/netdata/netdata.git@cee7787b2553e25f1ba37933d35a55d82e3e00ed",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-netdata-netdata",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

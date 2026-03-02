@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "IPADownload Dependency Manifest",
+  "documentNamespace": "https://github.com/chenjie1219/IPADownload/spdx/5b68695104c8fa00dba3420e41d7250274df0c89",
+  "packages": [
+    {
+      "name": "IPADownload",
+      "SPDXID": "SPDXRef-Package-chenjie1219-IPADownload",
+      "versionInfo": "5b68695104c8fa00dba3420e41d7250274df0c89",
+      "downloadLocation": "git+https://github.com/chenjie1219/IPADownload.git@5b68695104c8fa00dba3420e41d7250274df0c89",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "swift",
+      "SPDXID": "SPDXRef-Package-swiftlang-swift",
+      "versionInfo": "c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "downloadLocation": "git+https://github.com/swiftlang/swift.git@c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-chenjie1219-IPADownload",
+      "relatedSpdxElement": "SPDXRef-Package-swiftlang-swift",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

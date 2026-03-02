@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "iris Dependency Manifest",
+  "documentNamespace": "https://github.com/MapIV/iris/spdx/f7aa12440947a532b1cefd1500a4aaffa28c1058",
+  "packages": [
+    {
+      "name": "iris",
+      "SPDXID": "SPDXRef-Package-MapIV-iris",
+      "versionInfo": "f7aa12440947a532b1cefd1500a4aaffa28c1058",
+      "downloadLocation": "git+https://github.com/MapIV/iris.git@f7aa12440947a532b1cefd1500a4aaffa28c1058",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "vllm",
+      "SPDXID": "SPDXRef-Package-vllm-project-vllm",
+      "versionInfo": "2a9e3347e9fbefc4bf991b60dc45a8c156d8696f",
+      "downloadLocation": "git+https://github.com/vllm-project/vllm.git@2a9e3347e9fbefc4bf991b60dc45a8c156d8696f",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-MapIV-iris",
+      "relatedSpdxElement": "SPDXRef-Package-vllm-project-vllm",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

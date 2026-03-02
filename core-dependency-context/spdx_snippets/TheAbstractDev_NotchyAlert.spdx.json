@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "NotchyAlert Dependency Manifest",
+  "documentNamespace": "https://github.com/TheAbstractDev/NotchyAlert/spdx/8959278d6a89347a9a413eef227596d359744db8",
+  "packages": [
+    {
+      "name": "NotchyAlert",
+      "SPDXID": "SPDXRef-Package-TheAbstractDev-NotchyAlert",
+      "versionInfo": "8959278d6a89347a9a413eef227596d359744db8",
+      "downloadLocation": "git+https://github.com/TheAbstractDev/NotchyAlert.git@8959278d6a89347a9a413eef227596d359744db8",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "swift",
+      "SPDXID": "SPDXRef-Package-swiftlang-swift",
+      "versionInfo": "c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "downloadLocation": "git+https://github.com/swiftlang/swift.git@c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-TheAbstractDev-NotchyAlert",
+      "relatedSpdxElement": "SPDXRef-Package-swiftlang-swift",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

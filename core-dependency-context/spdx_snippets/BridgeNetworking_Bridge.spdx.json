@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Bridge Dependency Manifest",
+  "documentNamespace": "https://github.com/BridgeNetworking/Bridge/spdx/0d998a3eaf7003b70248c08f129ca8f33c4b33c4",
+  "packages": [
+    {
+      "name": "Bridge",
+      "SPDXID": "SPDXRef-Package-BridgeNetworking-Bridge",
+      "versionInfo": "0d998a3eaf7003b70248c08f129ca8f33c4b33c4",
+      "downloadLocation": "git+https://github.com/BridgeNetworking/Bridge.git@0d998a3eaf7003b70248c08f129ca8f33c4b33c4",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "swift",
+      "SPDXID": "SPDXRef-Package-swiftlang-swift",
+      "versionInfo": "c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "downloadLocation": "git+https://github.com/swiftlang/swift.git@c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-BridgeNetworking-Bridge",
+      "relatedSpdxElement": "SPDXRef-Package-swiftlang-swift",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

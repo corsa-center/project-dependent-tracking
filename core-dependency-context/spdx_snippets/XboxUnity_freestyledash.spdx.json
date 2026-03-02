@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "freestyledash Dependency Manifest",
+  "documentNamespace": "https://github.com/XboxUnity/freestyledash/spdx/df89a42edf055370e3383576c93199a3713c41e9",
+  "packages": [
+    {
+      "name": "freestyledash",
+      "SPDXID": "SPDXRef-Package-XboxUnity-freestyledash",
+      "versionInfo": "df89a42edf055370e3383576c93199a3713c41e9",
+      "downloadLocation": "git+https://github.com/XboxUnity/freestyledash.git@df89a42edf055370e3383576c93199a3713c41e9",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-XboxUnity-freestyledash",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

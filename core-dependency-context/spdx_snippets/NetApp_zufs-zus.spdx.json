@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "zufs-zus Dependency Manifest",
+  "documentNamespace": "https://github.com/NetApp/zufs-zus/spdx/9268598f898c97f62988d601993c6810c1a222d3",
+  "packages": [
+    {
+      "name": "zufs-zus",
+      "SPDXID": "SPDXRef-Package-NetApp-zufs-zus",
+      "versionInfo": "9268598f898c97f62988d601993c6810c1a222d3",
+      "downloadLocation": "git+https://github.com/NetApp/zufs-zus.git@9268598f898c97f62988d601993c6810c1a222d3",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-NetApp-zufs-zus",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

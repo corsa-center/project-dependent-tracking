@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "bitcoin Dependency Manifest",
+  "documentNamespace": "https://github.com/bitcoin/bitcoin/spdx/6b0a980de94bc5b64703151be708991f954161ea",
+  "packages": [
+    {
+      "name": "bitcoin",
+      "SPDXID": "SPDXRef-Package-bitcoin-bitcoin",
+      "versionInfo": "6b0a980de94bc5b64703151be708991f954161ea",
+      "downloadLocation": "git+https://github.com/bitcoin/bitcoin.git@6b0a980de94bc5b64703151be708991f954161ea",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-bitcoin-bitcoin",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

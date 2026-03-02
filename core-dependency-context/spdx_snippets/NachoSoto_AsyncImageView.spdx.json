@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "AsyncImageView Dependency Manifest",
+  "documentNamespace": "https://github.com/NachoSoto/AsyncImageView/spdx/ed3f482f04df9289e57f4e8ad0a33cd5f27d3c64",
+  "packages": [
+    {
+      "name": "AsyncImageView",
+      "SPDXID": "SPDXRef-Package-NachoSoto-AsyncImageView",
+      "versionInfo": "ed3f482f04df9289e57f4e8ad0a33cd5f27d3c64",
+      "downloadLocation": "git+https://github.com/NachoSoto/AsyncImageView.git@ed3f482f04df9289e57f4e8ad0a33cd5f27d3c64",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "swift",
+      "SPDXID": "SPDXRef-Package-swiftlang-swift",
+      "versionInfo": "c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "downloadLocation": "git+https://github.com/swiftlang/swift.git@c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-NachoSoto-AsyncImageView",
+      "relatedSpdxElement": "SPDXRef-Package-swiftlang-swift",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "ios-modular-architecture Dependency Manifest",
+  "documentNamespace": "https://github.com/freelancer/ios-modular-architecture/spdx/4d0591e2258c4d7fa88518f0ca63a85bd1816063",
+  "packages": [
+    {
+      "name": "ios-modular-architecture",
+      "SPDXID": "SPDXRef-Package-freelancer-ios-modular-architecture",
+      "versionInfo": "4d0591e2258c4d7fa88518f0ca63a85bd1816063",
+      "downloadLocation": "git+https://github.com/freelancer/ios-modular-architecture.git@4d0591e2258c4d7fa88518f0ca63a85bd1816063",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "swift",
+      "SPDXID": "SPDXRef-Package-swiftlang-swift",
+      "versionInfo": "c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "downloadLocation": "git+https://github.com/swiftlang/swift.git@c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-freelancer-ios-modular-architecture",
+      "relatedSpdxElement": "SPDXRef-Package-swiftlang-swift",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

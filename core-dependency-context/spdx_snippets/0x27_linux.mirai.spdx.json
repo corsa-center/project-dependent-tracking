@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "linux.mirai Dependency Manifest",
+  "documentNamespace": "https://github.com/0x27/linux.mirai/spdx/df4108349d675d2f9973ded3396d9788926a7920",
+  "packages": [
+    {
+      "name": "linux.mirai",
+      "SPDXID": "SPDXRef-Package-0x27-linux-mirai",
+      "versionInfo": "df4108349d675d2f9973ded3396d9788926a7920",
+      "downloadLocation": "git+https://github.com/0x27/linux.mirai.git@df4108349d675d2f9973ded3396d9788926a7920",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-0x27-linux-mirai",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "fpga_design Dependency Manifest",
+  "documentNamespace": "https://github.com/Frogwells/fpga_design/spdx/095ce183a8c6df8813834473f734fd1da34c8557",
+  "packages": [
+    {
+      "name": "fpga_design",
+      "SPDXID": "SPDXRef-Package-Frogwells-fpga_design",
+      "versionInfo": "095ce183a8c6df8813834473f734fd1da34c8557",
+      "downloadLocation": "git+https://github.com/Frogwells/fpga_design.git@095ce183a8c6df8813834473f734fd1da34c8557",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-Frogwells-fpga_design",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

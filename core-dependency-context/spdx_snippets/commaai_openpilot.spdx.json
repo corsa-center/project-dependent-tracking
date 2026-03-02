@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "openpilot Dependency Manifest",
+  "documentNamespace": "https://github.com/commaai/openpilot/spdx/06b2c68e03240d33174621e664d3ac04fdd954f8",
+  "packages": [
+    {
+      "name": "openpilot",
+      "SPDXID": "SPDXRef-Package-commaai-openpilot",
+      "versionInfo": "06b2c68e03240d33174621e664d3ac04fdd954f8",
+      "downloadLocation": "git+https://github.com/commaai/openpilot.git@06b2c68e03240d33174621e664d3ac04fdd954f8",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-commaai-openpilot",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

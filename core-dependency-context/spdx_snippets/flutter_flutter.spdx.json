@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "flutter Dependency Manifest",
+  "documentNamespace": "https://github.com/flutter/flutter/spdx/a4ebaacc88d3b9f1ab9e2bb4f88bc150fbb05e90",
+  "packages": [
+    {
+      "name": "flutter",
+      "SPDXID": "SPDXRef-Package-flutter-flutter",
+      "versionInfo": "a4ebaacc88d3b9f1ab9e2bb4f88bc150fbb05e90",
+      "downloadLocation": "git+https://github.com/flutter/flutter.git@a4ebaacc88d3b9f1ab9e2bb4f88bc150fbb05e90",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-flutter-flutter",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

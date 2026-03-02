@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "pytorch Dependency Manifest",
+  "documentNamespace": "https://github.com/pytorch/pytorch/spdx/1c78bf6f20b7fddd4dfde6020bb39d8b82b14642",
+  "packages": [
+    {
+      "name": "pytorch",
+      "SPDXID": "SPDXRef-Package-pytorch-pytorch",
+      "versionInfo": "1c78bf6f20b7fddd4dfde6020bb39d8b82b14642",
+      "downloadLocation": "git+https://github.com/pytorch/pytorch.git@1c78bf6f20b7fddd4dfde6020bb39d8b82b14642",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-pytorch-pytorch",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

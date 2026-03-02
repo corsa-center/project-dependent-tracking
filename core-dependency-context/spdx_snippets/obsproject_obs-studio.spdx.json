@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "obs-studio Dependency Manifest",
+  "documentNamespace": "https://github.com/obsproject/obs-studio/spdx/36d1dd8fdbebe5b3fe7087b25035878bbe04d268",
+  "packages": [
+    {
+      "name": "obs-studio",
+      "SPDXID": "SPDXRef-Package-obsproject-obs-studio",
+      "versionInfo": "36d1dd8fdbebe5b3fe7087b25035878bbe04d268",
+      "downloadLocation": "git+https://github.com/obsproject/obs-studio.git@36d1dd8fdbebe5b3fe7087b25035878bbe04d268",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-obsproject-obs-studio",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

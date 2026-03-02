@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Unified-MoE-Compression Dependency Manifest",
+  "documentNamespace": "https://github.com/CASE-Lab-UMD/Unified-MoE-Compression/spdx/81b83ba8c9a7ced8c02f3232baeae024ee6fc1ed",
+  "packages": [
+    {
+      "name": "Unified-MoE-Compression",
+      "SPDXID": "SPDXRef-Package-CASE-Lab-UMD-Unified-MoE-Compression",
+      "versionInfo": "81b83ba8c9a7ced8c02f3232baeae024ee6fc1ed",
+      "downloadLocation": "git+https://github.com/CASE-Lab-UMD/Unified-MoE-Compression.git@81b83ba8c9a7ced8c02f3232baeae024ee6fc1ed",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "vllm",
+      "SPDXID": "SPDXRef-Package-vllm-project-vllm",
+      "versionInfo": "2a9e3347e9fbefc4bf991b60dc45a8c156d8696f",
+      "downloadLocation": "git+https://github.com/vllm-project/vllm.git@2a9e3347e9fbefc4bf991b60dc45a8c156d8696f",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-CASE-Lab-UMD-Unified-MoE-Compression",
+      "relatedSpdxElement": "SPDXRef-Package-vllm-project-vllm",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

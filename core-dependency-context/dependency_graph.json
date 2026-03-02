@@ -1,0 +1,2327 @@
+{
+  "meta": {
+    "root": "scorec/core"
+  },
+  "nodes": [
+    {
+      "id": "scorec/core",
+      "label": "core",
+      "type": "library",
+      "data": {
+        "packageName": "core",
+        "packageOwner": "scorec",
+        "originUrl": "https://github.com/scorec/core",
+        "commitSha": "729b40b3d38e7d70de7b0110adba71101ead2ff9",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 192,
+        "contributors": 86,
+        "commits": 7080,
+        "lastUpdate": "2026-02-09T13:24:33Z",
+        "latestRelease": "",
+        "license": "Other",
+        "isFork": false,
+        "description": "parallel finite element unstructured meshes",
+        "paper": null
+      }
+    },
+    {
+      "id": "vllm-project/vllm",
+      "label": "vllm",
+      "type": "consumer",
+      "data": {
+        "packageName": "vllm",
+        "packageOwner": "vllm-project",
+        "originUrl": "/r/github.com/vllm-project/vllm",
+        "commitSha": "cad21918e3f1a13353d6fcc1f1f431d6d3baf964",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/vllm-project_vllm.spdx.json",
+        "stars": 71696,
+        "contributors": 2257,
+        "commits": 14385,
+        "lastUpdate": "2026-03-02T20:45:32Z",
+        "latestRelease": "2023-06-20T06:28:07Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+        "paper": null
+      }
+    },
+    {
+      "id": "torvalds/linux",
+      "label": "linux",
+      "type": "consumer",
+      "data": {
+        "packageName": "linux",
+        "packageOwner": "torvalds",
+        "originUrl": "/r/github.com/torvalds/linux",
+        "commitSha": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/torvalds_linux.spdx.json",
+        "stars": 220308,
+        "contributors": 9983,
+        "commits": 1427336,
+        "lastUpdate": "2026-03-02T20:24:46Z",
+        "latestRelease": "",
+        "license": "Other",
+        "isFork": false,
+        "description": "Linux kernel source tree",
+        "paper": null
+      }
+    },
+    {
+      "id": "microsoft/PowerToys",
+      "label": "PowerToys",
+      "type": "consumer",
+      "data": {
+        "packageName": "PowerToys",
+        "packageOwner": "microsoft",
+        "originUrl": "/r/github.com/microsoft/PowerToys",
+        "commitSha": "22b4dda3aab46956c67daa2ac266383384fc7c05",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/microsoft_PowerToys.spdx.json",
+        "stars": 130164,
+        "contributors": 612,
+        "commits": 8901,
+        "lastUpdate": "2026-03-02T20:38:23Z",
+        "latestRelease": "2019-12-03T16:50:46Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+        "paper": null
+      }
+    },
+    {
+      "id": "swiftlang/swift",
+      "label": "swift",
+      "type": "consumer",
+      "data": {
+        "packageName": "swift",
+        "packageOwner": "swiftlang",
+        "originUrl": "/r/github.com/swiftlang/swift",
+        "commitSha": "f7a6cb580a48b7db57ad6592178fc1838eaa419a",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/swiftlang_swift.spdx.json",
+        "stars": 69824,
+        "contributors": 1343,
+        "commits": 198307,
+        "lastUpdate": "2026-03-02T20:23:52Z",
+        "latestRelease": "2016-08-15T17:23:38Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "The Swift Programming Language",
+        "paper": null
+      }
+    },
+    {
+      "id": "microsoft/aici",
+      "label": "aici",
+      "type": "consumer",
+      "data": {
+        "packageName": "aici",
+        "packageOwner": "microsoft",
+        "originUrl": "/r/github.com/microsoft/aici",
+        "commitSha": "ecc50362fe2c620c3c8487740267f6fae49397d3",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/microsoft_aici.spdx.json",
+        "stars": 2063,
+        "contributors": 10000,
+        "commits": 1617,
+        "lastUpdate": "2026-03-01T03:03:39Z",
+        "latestRelease": "2024-01-12T20:58:20Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "AICI: Prompts as (Wasm) Programs",
+        "paper": null
+      }
+    },
+    {
+      "id": "casper-hansen/AutoAWQ_kernels",
+      "label": "AutoAWQ_kernels",
+      "type": "consumer",
+      "data": {
+        "packageName": "AutoAWQ_kernels",
+        "packageOwner": "casper-hansen",
+        "originUrl": "/r/github.com/casper-hansen/AutoAWQ_kernels",
+        "commitSha": "c7b0e88c327694c715b0a758d9ce8fd414a1fa21",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/casper-hansen_AutoAWQ_kernels.spdx.json",
+        "stars": 79,
+        "contributors": 4,
+        "commits": 36,
+        "lastUpdate": "2026-01-30T10:16:24Z",
+        "latestRelease": "2023-12-28T16:05:55Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": null,
+        "paper": null
+      }
+    },
+    {
+      "id": "MapIV/iris",
+      "label": "iris",
+      "type": "consumer",
+      "data": {
+        "packageName": "iris",
+        "packageOwner": "MapIV",
+        "originUrl": "/r/github.com/MapIV/iris",
+        "commitSha": "f7aa12440947a532b1cefd1500a4aaffa28c1058",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/MapIV_iris.spdx.json",
+        "stars": 166,
+        "contributors": 9,
+        "commits": 272,
+        "lastUpdate": "2026-01-13T06:40:09Z",
+        "latestRelease": "",
+        "license": "Other",
+        "isFork": false,
+        "description": null,
+        "paper": null
+      }
+    },
+    {
+      "id": "CASE-Lab-UMD/LLM-Drop",
+      "label": "LLM-Drop",
+      "type": "consumer",
+      "data": {
+        "packageName": "LLM-Drop",
+        "packageOwner": "CASE-Lab-UMD",
+        "originUrl": "/r/github.com/CASE-Lab-UMD/LLM-Drop",
+        "commitSha": "52ca71f1e7efa275b24c17d7985bc8e5e2b55c84",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/CASE-Lab-UMD_LLM-Drop.spdx.json",
+        "stars": 188,
+        "contributors": 5,
+        "commits": 59,
+        "lastUpdate": "2026-03-02T01:08:27Z",
+        "latestRelease": "",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "The official implementation of the paper \"Uncovering the Redundancy in Transformers via a Unified Study of Layer Dropping (TMLR)\".",
+        "paper": null
+      }
+    },
+    {
+      "id": "CASE-Lab-UMD/Unified-MoE-Compression",
+      "label": "Unified-MoE-Compression",
+      "type": "consumer",
+      "data": {
+        "packageName": "Unified-MoE-Compression",
+        "packageOwner": "CASE-Lab-UMD",
+        "originUrl": "/r/github.com/CASE-Lab-UMD/Unified-MoE-Compression",
+        "commitSha": "81b83ba8c9a7ced8c02f3232baeae024ee6fc1ed",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/CASE-Lab-UMD_Unified-MoE-Compression.spdx.json",
+        "stars": 88,
+        "contributors": 3,
+        "commits": 39,
+        "lastUpdate": "2026-02-28T23:35:44Z",
+        "latestRelease": "",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "The official implementation of the paper \"Towards Efficient Mixture of Experts: A Holistic Study of Compression Techniques (TMLR)\".",
+        "paper": null
+      }
+    },
+    {
+      "id": "nodejs/node",
+      "label": "node",
+      "type": "consumer",
+      "data": {
+        "packageName": "node",
+        "packageOwner": "nodejs",
+        "originUrl": "/r/github.com/nodejs/node",
+        "commitSha": "78e56face1176bd4b90fd656a37847051d008766",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/nodejs_node.spdx.json",
+        "stars": 116027,
+        "contributors": 3680,
+        "commits": 46172,
+        "lastUpdate": "2026-03-02T19:37:18Z",
+        "latestRelease": "2017-09-05T19:57:06Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
+        "paper": null
+      }
+    },
+    {
+      "id": "LadybirdBrowser/ladybird",
+      "label": "ladybird",
+      "type": "consumer",
+      "data": {
+        "packageName": "ladybird",
+        "packageOwner": "LadybirdBrowser",
+        "originUrl": "/r/github.com/LadybirdBrowser/ladybird",
+        "commitSha": "1aed4d624d07e760fd91fe1affeec1b03920928c",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/LadybirdBrowser_ladybird.spdx.json",
+        "stars": 60885,
+        "contributors": 1241,
+        "commits": 75702,
+        "lastUpdate": "2026-03-02T20:56:41Z",
+        "latestRelease": "",
+        "license": "BSD 2-Clause \"Simplified\" License",
+        "isFork": false,
+        "description": "Truly independent web browser",
+        "paper": null
+      }
+    },
+    {
+      "id": "oven-sh/bun",
+      "label": "bun",
+      "type": "consumer",
+      "data": {
+        "packageName": "bun",
+        "packageOwner": "oven-sh",
+        "originUrl": "/r/github.com/oven-sh/bun",
+        "commitSha": "32edef77e9d42b5d0d6736a4893534edc198717e",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/oven-sh_bun.spdx.json",
+        "stars": 87794,
+        "contributors": 886,
+        "commits": 14711,
+        "lastUpdate": "2026-03-02T20:50:19Z",
+        "latestRelease": "2021-09-14T09:48:46Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+        "paper": null
+      }
+    },
+    {
+      "id": "commaai/openpilot",
+      "label": "openpilot",
+      "type": "consumer",
+      "data": {
+        "packageName": "openpilot",
+        "packageOwner": "commaai",
+        "originUrl": "/r/github.com/commaai/openpilot",
+        "commitSha": "06b2c68e03240d33174621e664d3ac04fdd954f8",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/commaai_openpilot.spdx.json",
+        "stars": 60204,
+        "contributors": 670,
+        "commits": 16802,
+        "lastUpdate": "2026-03-02T20:33:58Z",
+        "latestRelease": "2018-01-31T06:02:09Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+        "paper": null
+      }
+    },
+    {
+      "id": "bitcoin/bitcoin",
+      "label": "bitcoin",
+      "type": "consumer",
+      "data": {
+        "packageName": "bitcoin",
+        "packageOwner": "bitcoin",
+        "originUrl": "/r/github.com/bitcoin/bitcoin",
+        "commitSha": "6b0a980de94bc5b64703151be708991f954161ea",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/bitcoin_bitcoin.spdx.json",
+        "stars": 88317,
+        "contributors": 1025,
+        "commits": 48029,
+        "lastUpdate": "2026-03-02T20:30:19Z",
+        "latestRelease": "2016-11-01T19:31:28Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Bitcoin Core integration/staging tree",
+        "paper": null
+      }
+    },
+    {
+      "id": "pytorch/pytorch",
+      "label": "pytorch",
+      "type": "consumer",
+      "data": {
+        "packageName": "pytorch",
+        "packageOwner": "pytorch",
+        "originUrl": "/r/github.com/pytorch/pytorch",
+        "commitSha": "1c78bf6f20b7fddd4dfde6020bb39d8b82b14642",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/pytorch_pytorch.spdx.json",
+        "stars": 97888,
+        "contributors": 4308,
+        "commits": 100257,
+        "lastUpdate": "2026-03-02T20:42:37Z",
+        "latestRelease": "2016-09-01T05:01:36Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "paper": null
+      }
+    },
+    {
+      "id": "tensorflow/tensorflow",
+      "label": "tensorflow",
+      "type": "consumer",
+      "data": {
+        "packageName": "tensorflow",
+        "packageOwner": "tensorflow",
+        "originUrl": "/r/github.com/tensorflow/tensorflow",
+        "commitSha": "ee367f1c631298492e95c343d058cccf79237f98",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/tensorflow_tensorflow.spdx.json",
+        "stars": 193967,
+        "contributors": 4038,
+        "commits": 190865,
+        "lastUpdate": "2026-03-02T20:50:47Z",
+        "latestRelease": "2016-02-16T23:01:20Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "An Open Source Machine Learning Framework for Everyone",
+        "paper": null
+      }
+    },
+    {
+      "id": "rust-lang/rust",
+      "label": "rust",
+      "type": "consumer",
+      "data": {
+        "packageName": "rust",
+        "packageOwner": "rust-lang",
+        "originUrl": "/r/github.com/rust-lang/rust",
+        "commitSha": "8ddf4ef064fb702fed0f3d239ec8d0bac607484e",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/rust-lang_rust.spdx.json",
+        "stars": 110822,
+        "contributors": 6432,
+        "commits": 320024,
+        "lastUpdate": "2026-03-02T20:25:26Z",
+        "latestRelease": "2020-09-10T08:08:33Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Empowering everyone to build reliable and efficient software.",
+        "paper": null
+      }
+    },
+    {
+      "id": "jesseduffield/lazygit",
+      "label": "lazygit",
+      "type": "consumer",
+      "data": {
+        "packageName": "lazygit",
+        "packageOwner": "jesseduffield",
+        "originUrl": "/r/github.com/jesseduffield/lazygit",
+        "commitSha": "9046d5eb1459094b0b2038a911849e5b56ef5cc6",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/jesseduffield_lazygit.spdx.json",
+        "stars": 73341,
+        "contributors": 350,
+        "commits": 7169,
+        "lastUpdate": "2026-03-02T20:55:39Z",
+        "latestRelease": "2018-08-07T13:10:30Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "simple terminal UI for git commands",
+        "paper": null
+      }
+    },
+    {
+      "id": "obsproject/obs-studio",
+      "label": "obs-studio",
+      "type": "consumer",
+      "data": {
+        "packageName": "obs-studio",
+        "packageOwner": "obsproject",
+        "originUrl": "/r/github.com/obsproject/obs-studio",
+        "commitSha": "36d1dd8fdbebe5b3fe7087b25035878bbe04d268",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/obsproject_obs-studio.spdx.json",
+        "stars": 70653,
+        "contributors": 658,
+        "commits": 15419,
+        "lastUpdate": "2026-03-02T19:36:25Z",
+        "latestRelease": "2014-05-21T12:01:25Z",
+        "license": "GNU General Public License v2.0",
+        "isFork": false,
+        "description": "OBS Studio - Free and open source software for live streaming and screen recording",
+        "paper": null
+      }
+    },
+    {
+      "id": "RWS-Studios/POSTAL-SourceCode",
+      "label": "POSTAL-SourceCode",
+      "type": "consumer",
+      "data": {
+        "packageName": "POSTAL-SourceCode",
+        "packageOwner": "RWS-Studios",
+        "originUrl": "/r/github.com/RWS-Studios/POSTAL-SourceCode",
+        "commitSha": "adb5a30c10dcdfe7758883938f706cb9b53cf496",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/RWS-Studios_POSTAL-SourceCode.spdx.json",
+        "stars": 95,
+        "contributors": 5,
+        "commits": 6,
+        "lastUpdate": "2026-02-26T17:54:28Z",
+        "latestRelease": "",
+        "license": "GNU General Public License v2.0",
+        "isFork": false,
+        "description": "Official repository for the original POSTAL source code.",
+        "paper": null
+      }
+    },
+    {
+      "id": "ggml-org/llama.cpp",
+      "label": "llama.cpp",
+      "type": "consumer",
+      "data": {
+        "packageName": "llama.cpp",
+        "packageOwner": "ggml-org",
+        "originUrl": "/r/github.com/ggml-org/llama.cpp",
+        "commitSha": "4d828bd1ab52773ba9570cc008cf209eb4a8b2f5",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/ggml-org_llama.cpp.spdx.json",
+        "stars": 96362,
+        "contributors": 1486,
+        "commits": 8189,
+        "lastUpdate": "2026-03-02T20:57:21Z",
+        "latestRelease": "2025-10-20T15:07:40Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "LLM inference in C/C++",
+        "paper": null
+      }
+    },
+    {
+      "id": "python/cpython",
+      "label": "cpython",
+      "type": "consumer",
+      "data": {
+        "packageName": "cpython",
+        "packageOwner": "python",
+        "originUrl": "/r/github.com/python/cpython",
+        "commitSha": "f739e2ca62497d15a90ea56f2a92ce0fe85ea85a",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/python_cpython.spdx.json",
+        "stars": 71777,
+        "contributors": 3376,
+        "commits": 130395,
+        "lastUpdate": "2026-03-02T20:48:18Z",
+        "latestRelease": "",
+        "license": "Other",
+        "isFork": false,
+        "description": "The Python programming language",
+        "paper": null
+      }
+    },
+    {
+      "id": "JetBrains/kotlin",
+      "label": "kotlin",
+      "type": "consumer",
+      "data": {
+        "packageName": "kotlin",
+        "packageOwner": "JetBrains",
+        "originUrl": "/r/github.com/JetBrains/kotlin",
+        "commitSha": "1e34356ce550f905fa1ea3f6ad1c5db9bc810cac",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/JetBrains_kotlin.spdx.json",
+        "stars": 52397,
+        "contributors": 826,
+        "commits": 134039,
+        "lastUpdate": "2026-03-02T20:37:34Z",
+        "latestRelease": "2013-08-14T14:07:35Z",
+        "license": "None",
+        "isFork": false,
+        "description": "The Kotlin Programming Language. ",
+        "paper": null
+      }
+    },
+    {
+      "id": "kubernetes/kubernetes",
+      "label": "kubernetes",
+      "type": "consumer",
+      "data": {
+        "packageName": "kubernetes",
+        "packageOwner": "kubernetes",
+        "originUrl": "/r/github.com/kubernetes/kubernetes",
+        "commitSha": "da663405beb487d66c27a0220ea4073305ae9077",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/kubernetes_kubernetes.spdx.json",
+        "stars": 120868,
+        "contributors": 4171,
+        "commits": 135937,
+        "lastUpdate": "2026-03-02T18:02:21Z",
+        "latestRelease": "2014-10-15T00:11:34Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Production-Grade Container Scheduling and Management",
+        "paper": null
+      }
+    },
+    {
+      "id": "androidvirtualpen/virtualpen",
+      "label": "virtualpen",
+      "type": "consumer",
+      "data": {
+        "packageName": "virtualpen",
+        "packageOwner": "androidvirtualpen",
+        "originUrl": "/r/github.com/androidvirtualpen/virtualpen",
+        "commitSha": "85753e49fab42a0f03762d8b9ea8a7be7c3d8e0c",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/androidvirtualpen_virtualpen.spdx.json",
+        "stars": 114,
+        "contributors": 1,
+        "commits": 62,
+        "lastUpdate": "2026-02-22T15:16:59Z",
+        "latestRelease": "2024-04-19T04:56:18Z",
+        "license": "None",
+        "isFork": false,
+        "description": null,
+        "paper": null
+      }
+    },
+    {
+      "id": "starius/logic-bomb",
+      "label": "logic-bomb",
+      "type": "consumer",
+      "data": {
+        "packageName": "logic-bomb",
+        "packageOwner": "starius",
+        "originUrl": "/r/github.com/starius/logic-bomb",
+        "commitSha": "7e54693a9088471f19698f4ff003868446b19aff",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/starius_logic-bomb.spdx.json",
+        "stars": 44,
+        "contributors": 1,
+        "commits": 15,
+        "lastUpdate": "2026-02-02T03:01:03Z",
+        "latestRelease": "",
+        "license": "GNU General Public License v2.0",
+        "isFork": false,
+        "description": "Linux kernel module which powers off the computer on certain text from keyboard",
+        "paper": null
+      }
+    },
+    {
+      "id": "0x27/linux.mirai",
+      "label": "linux.mirai",
+      "type": "consumer",
+      "data": {
+        "packageName": "linux.mirai",
+        "packageOwner": "0x27",
+        "originUrl": "/r/github.com/0x27/linux.mirai",
+        "commitSha": "df4108349d675d2f9973ded3396d9788926a7920",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/0x27_linux.mirai.spdx.json",
+        "stars": 570,
+        "contributors": 2,
+        "commits": 5,
+        "lastUpdate": "2026-02-27T05:53:20Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "Leaked Linux.Mirai Source Code for Research/IoC Development Purposes",
+        "paper": null
+      }
+    },
+    {
+      "id": "golems/ach",
+      "label": "ach",
+      "type": "consumer",
+      "data": {
+        "packageName": "ach",
+        "packageOwner": "golems",
+        "originUrl": "/r/github.com/golems/ach",
+        "commitSha": "4766faa88fc24331d78005df9d218710250efab8",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/golems_ach.spdx.json",
+        "stars": 64,
+        "contributors": 20,
+        "commits": 628,
+        "lastUpdate": "2025-11-05T19:11:35Z",
+        "latestRelease": "",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "IPC for Real-Time Robot Control",
+        "paper": null
+      }
+    },
+    {
+      "id": "libretro/blastem",
+      "label": "blastem",
+      "type": "consumer",
+      "data": {
+        "packageName": "blastem",
+        "packageOwner": "libretro",
+        "originUrl": "/r/github.com/libretro/blastem",
+        "commitSha": "277e4a62668597d4f59cadda1cbafb844f981d45",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/libretro_blastem.spdx.json",
+        "stars": 67,
+        "contributors": 15,
+        "commits": 2053,
+        "lastUpdate": "2026-02-22T12:18:11Z",
+        "latestRelease": "",
+        "license": "GNU General Public License v3.0",
+        "isFork": false,
+        "description": "Upstream tracking repo of BlastEm, the fast and accurate Genesis emulator, with libretro specific changes",
+        "paper": null
+      }
+    },
+    {
+      "id": "Trinkle23897/router",
+      "label": "router",
+      "type": "consumer",
+      "data": {
+        "packageName": "router",
+        "packageOwner": "Trinkle23897",
+        "originUrl": "/r/github.com/Trinkle23897/router",
+        "commitSha": "7171270664501f0bfcf724f8600f781692eb1f92",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/Trinkle23897_router.spdx.json",
+        "stars": 81,
+        "contributors": 1,
+        "commits": 27,
+        "lastUpdate": "2026-02-09T04:42:55Z",
+        "latestRelease": "2018-11-10T06:19:23Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "\u9020\u8def\u7531\u5668 \uff08\u6e05\u534e\u5927\u5b66 \u7f51\u7edc\u539f\u7406\u8bfe\u7a0b 2018-2019\u79cb\uff09",
+        "paper": null
+      }
+    },
+    {
+      "id": "ningzhenyu/nailgun",
+      "label": "nailgun",
+      "type": "consumer",
+      "data": {
+        "packageName": "nailgun",
+        "packageOwner": "ningzhenyu",
+        "originUrl": "/r/github.com/ningzhenyu/nailgun",
+        "commitSha": "8864e8fa31b5be091ca86b5e824f0f111ae9f8ae",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/ningzhenyu_nailgun.spdx.json",
+        "stars": 165,
+        "contributors": 1,
+        "commits": 16,
+        "lastUpdate": "2026-01-14T11:09:38Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "Nailgun attack on ARM devices.",
+        "paper": null
+      }
+    },
+    {
+      "id": "james34602/UPX-Visual-Studio",
+      "label": "UPX-Visual-Studio",
+      "type": "consumer",
+      "data": {
+        "packageName": "UPX-Visual-Studio",
+        "packageOwner": "james34602",
+        "originUrl": "/r/github.com/james34602/UPX-Visual-Studio",
+        "commitSha": "ecd034fa4c89b7019fdc9ca0e1d34bf5cad9e3ac",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/james34602_UPX-Visual-Studio.spdx.json",
+        "stars": 133,
+        "contributors": 2,
+        "commits": 20,
+        "lastUpdate": "2025-05-23T05:07:03Z",
+        "latestRelease": "2017-07-25T06:36:30Z",
+        "license": "None",
+        "isFork": false,
+        "description": "Compile UPX 3.96 and belong librarys on Visual Studio! Source also include LZMA, UCL and zlib :black_nib: ",
+        "paper": null
+      }
+    },
+    {
+      "id": "openai/codex",
+      "label": "codex",
+      "type": "consumer",
+      "data": {
+        "packageName": "codex",
+        "packageOwner": "openai",
+        "originUrl": "/r/github.com/openai/codex",
+        "commitSha": "75e7c804eac4d3fae12d1dda38c726d1f37e17fe",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/openai_codex.spdx.json",
+        "stars": 62684,
+        "contributors": 3612,
+        "commits": 4149,
+        "lastUpdate": "2026-03-02T20:32:51Z",
+        "latestRelease": "2025-04-30T20:16:01Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Lightweight coding agent that runs in your terminal",
+        "paper": null
+      }
+    },
+    {
+      "id": "flutter/flutter",
+      "label": "flutter",
+      "type": "consumer",
+      "data": {
+        "packageName": "flutter",
+        "packageOwner": "flutter",
+        "originUrl": "/r/github.com/flutter/flutter",
+        "commitSha": "a4ebaacc88d3b9f1ab9e2bb4f88bc150fbb05e90",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/flutter_flutter.spdx.json",
+        "stars": 175399,
+        "contributors": 1798,
+        "commits": 88459,
+        "lastUpdate": "2026-03-02T19:53:14Z",
+        "latestRelease": "2023-07-12T18:58:22Z",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+        "paper": null
+      }
+    },
+    {
+      "id": "linkdd/logfmtxx",
+      "label": "logfmtxx",
+      "type": "consumer",
+      "data": {
+        "packageName": "logfmtxx",
+        "packageOwner": "linkdd",
+        "originUrl": "/r/github.com/linkdd/logfmtxx",
+        "commitSha": "30ab18734170867383074c340eedc7724bddbc22",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/linkdd_logfmtxx.spdx.json",
+        "stars": 72,
+        "contributors": 2,
+        "commits": 25,
+        "lastUpdate": "2026-02-25T02:22:35Z",
+        "latestRelease": "2024-04-04T01:49:08Z",
+        "license": "BSD Zero Clause License",
+        "isFork": false,
+        "description": "Header only C++23 structured logging library using logfmt",
+        "paper": null
+      }
+    },
+    {
+      "id": "xor2003/masm2c",
+      "label": "masm2c",
+      "type": "consumer",
+      "data": {
+        "packageName": "masm2c",
+        "packageOwner": "xor2003",
+        "originUrl": "/r/github.com/xor2003/masm2c",
+        "commitSha": "027cca02f5a6ac0ffff339ec27522f7be85c87b1",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/xor2003_masm2c.spdx.json",
+        "stars": 94,
+        "contributors": 1,
+        "commits": 919,
+        "lastUpdate": "2026-01-20T06:21:07Z",
+        "latestRelease": "2019-06-14T11:10:54Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "x86 assembler (MASM syntax) to C translator",
+        "paper": null
+      }
+    },
+    {
+      "id": "XboxUnity/freestyledash",
+      "label": "freestyledash",
+      "type": "consumer",
+      "data": {
+        "packageName": "freestyledash",
+        "packageOwner": "XboxUnity",
+        "originUrl": "/r/github.com/XboxUnity/freestyledash",
+        "commitSha": "df89a42edf055370e3383576c93199a3713c41e9",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/XboxUnity_freestyledash.spdx.json",
+        "stars": 33,
+        "contributors": 4,
+        "commits": 6,
+        "lastUpdate": "2026-02-15T18:42:32Z",
+        "latestRelease": "",
+        "license": "GNU General Public License v3.0",
+        "isFork": false,
+        "description": "FSD 2 - An XboxUnity project by Team FSD (Team Phoenix)",
+        "paper": null
+      }
+    },
+    {
+      "id": "FozzTexx/ninepin",
+      "label": "ninepin",
+      "type": "consumer",
+      "data": {
+        "packageName": "ninepin",
+        "packageOwner": "FozzTexx",
+        "originUrl": "/r/github.com/FozzTexx/ninepin",
+        "commitSha": "e49854f8a455cf4ec679c53b860810eba473a9db",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/FozzTexx_ninepin.spdx.json",
+        "stars": 111,
+        "contributors": 1,
+        "commits": 126,
+        "lastUpdate": "2026-02-04T22:18:02Z",
+        "latestRelease": "",
+        "license": "GNU General Public License v2.0",
+        "isFork": false,
+        "description": "ninepin: A utility to adapt computers of the past to modern times.",
+        "paper": null
+      }
+    },
+    {
+      "id": "NetApp/zufs-zus",
+      "label": "zufs-zus",
+      "type": "consumer",
+      "data": {
+        "packageName": "zufs-zus",
+        "packageOwner": "NetApp",
+        "originUrl": "/r/github.com/NetApp/zufs-zus",
+        "commitSha": "9268598f898c97f62988d601993c6810c1a222d3",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/NetApp_zufs-zus.spdx.json",
+        "stars": 50,
+        "contributors": 13,
+        "commits": 335,
+        "lastUpdate": "2024-11-19T10:00:46Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "zero-copy user-mode server. User-mode server which delegates zufs commands to specific file-system implementation. ",
+        "paper": null
+      }
+    },
+    {
+      "id": "apache/apr",
+      "label": "apr",
+      "type": "consumer",
+      "data": {
+        "packageName": "apr",
+        "packageOwner": "apache",
+        "originUrl": "/r/github.com/apache/apr",
+        "commitSha": "e461da5864fdd2fca6a15ec8d6c42d7f67c5f199",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/apache_apr.spdx.json",
+        "stars": 521,
+        "contributors": 45,
+        "commits": 9560,
+        "lastUpdate": "2026-02-23T13:00:05Z",
+        "latestRelease": "",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Mirror of Apache Portable Runtime",
+        "paper": null
+      }
+    },
+    {
+      "id": "Frogwells/fpga_design",
+      "label": "fpga_design",
+      "type": "consumer",
+      "data": {
+        "packageName": "fpga_design",
+        "packageOwner": "Frogwells",
+        "originUrl": "/r/github.com/Frogwells/fpga_design",
+        "commitSha": "095ce183a8c6df8813834473f734fd1da34c8557",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/Frogwells_fpga_design.spdx.json",
+        "stars": 97,
+        "contributors": 1,
+        "commits": 15,
+        "lastUpdate": "2026-03-02T02:39:51Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "\u8fd9\u662f\u6211\u6240\u5f00\u53d1\u7684\u4e24\u4e2a\u9879\u76ee\uff0c\u5305\u62ecov5640-ddr3-usb2.0\u9ad8\u901f\u56fe\u50cf\u91c7\u96c6\u7cfb\u7edf\u4ee5\u53caNOIP1SN1300A-ddr3-sdhc\u9ad8\u901f\u5730\u8868\u56fe\u50cf\u91c7\u96c6\u53ca\u5b58\u50a8\u7cfb\u7edf",
+        "paper": null
+      }
+    },
+    {
+      "id": "LINBIT/drbdtop",
+      "label": "drbdtop",
+      "type": "consumer",
+      "data": {
+        "packageName": "drbdtop",
+        "packageOwner": "LINBIT",
+        "originUrl": "/r/github.com/LINBIT/drbdtop",
+        "commitSha": "ad225d114864e7519e7f1d81e8e6e31048f32a45",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/LINBIT_drbdtop.spdx.json",
+        "stars": 48,
+        "contributors": 5,
+        "commits": 237,
+        "lastUpdate": "2024-09-19T16:31:24Z",
+        "latestRelease": "2017-07-28T08:27:29Z",
+        "license": "GNU General Public License v2.0",
+        "isFork": false,
+        "description": "CLI management tool for DRBD. Like top, but for DRBD resources.",
+        "paper": null
+      }
+    },
+    {
+      "id": "cmtp-responder/cmtp-responder",
+      "label": "cmtp-responder",
+      "type": "consumer",
+      "data": {
+        "packageName": "cmtp-responder",
+        "packageOwner": "cmtp-responder",
+        "originUrl": "/r/github.com/cmtp-responder/cmtp-responder",
+        "commitSha": "6feaeef3f5463717620ab30ddb5e2bcffb5f4f11",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/cmtp-responder_cmtp-responder.spdx.json",
+        "stars": 33,
+        "contributors": 10,
+        "commits": 396,
+        "lastUpdate": "2026-01-08T07:12:41Z",
+        "latestRelease": "",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "MTP responder written in C, with permissive license and minimal dependencies",
+        "paper": null
+      }
+    },
+    {
+      "id": "antirez/disque-module",
+      "label": "disque-module",
+      "type": "consumer",
+      "data": {
+        "packageName": "disque-module",
+        "packageOwner": "antirez",
+        "originUrl": "/r/github.com/antirez/disque-module",
+        "commitSha": "f9cd430bc5ad32490513dc46f264edf95d677432",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/antirez_disque-module.spdx.json",
+        "stars": 470,
+        "contributors": 2,
+        "commits": 37,
+        "lastUpdate": "2026-01-03T03:31:10Z",
+        "latestRelease": "",
+        "license": "GNU Affero General Public License v3.0",
+        "isFork": false,
+        "description": "Disque ported as Redis module",
+        "paper": null
+      }
+    },
+    {
+      "id": "openfaas/ingress-operator",
+      "label": "ingress-operator",
+      "type": "consumer",
+      "data": {
+        "packageName": "ingress-operator",
+        "packageOwner": "openfaas",
+        "originUrl": "/r/github.com/openfaas/ingress-operator",
+        "commitSha": "f3f9108fae99f21b9145f2c1f87612123bab23ff",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/openfaas_ingress-operator.spdx.json",
+        "stars": 70,
+        "contributors": 9,
+        "commits": 121,
+        "lastUpdate": "2025-12-12T18:24:12Z",
+        "latestRelease": "2019-06-26T11:57:27Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Custom domains, paths and TLS for your OpenFaaS Functions",
+        "paper": null
+      }
+    },
+    {
+      "id": "netdata/netdata",
+      "label": "netdata",
+      "type": "consumer",
+      "data": {
+        "packageName": "netdata",
+        "packageOwner": "netdata",
+        "originUrl": "/r/github.com/netdata/netdata",
+        "commitSha": "cee7787b2553e25f1ba37933d35a55d82e3e00ed",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/netdata_netdata.spdx.json",
+        "stars": 77938,
+        "contributors": 617,
+        "commits": 21752,
+        "lastUpdate": "2026-03-02T20:29:38Z",
+        "latestRelease": "2015-09-25T22:01:16Z",
+        "license": "GNU General Public License v3.0",
+        "isFork": false,
+        "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+        "paper": null
+      }
+    },
+    {
+      "id": "Jiu-xiao/libxr",
+      "label": "libxr",
+      "type": "consumer",
+      "data": {
+        "packageName": "libxr",
+        "packageOwner": "Jiu-xiao",
+        "originUrl": "/r/github.com/Jiu-xiao/libxr",
+        "commitSha": "b293208524b6ce6730c4d83297d6db2fff3e2ea3",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/Jiu-xiao_libxr.spdx.json",
+        "stars": 37,
+        "contributors": 7,
+        "commits": 538,
+        "lastUpdate": "2026-02-28T12:55:31Z",
+        "latestRelease": "2025-06-20T00:33:05Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Standardized compatibility layer for operating systems and peripheral devices written in C++.",
+        "paper": null
+      }
+    },
+    {
+      "id": "apitrace/apitrace",
+      "label": "apitrace",
+      "type": "consumer",
+      "data": {
+        "packageName": "apitrace",
+        "packageOwner": "apitrace",
+        "originUrl": "/r/github.com/apitrace/apitrace",
+        "commitSha": "18cfd388ac47a9e00978b34d6c20341f3e2cdb56",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/apitrace_apitrace.spdx.json",
+        "stars": 2806,
+        "contributors": 139,
+        "commits": 5020,
+        "lastUpdate": "2026-02-28T23:57:59Z",
+        "latestRelease": "2015-01-15T18:34:53Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Tools for tracing OpenGL, Direct3D, and other graphics APIs",
+        "paper": null
+      }
+    },
+    {
+      "id": "SAP/cf-html5-apps-repo-cli-plugin",
+      "label": "cf-html5-apps-repo-cli-plugin",
+      "type": "consumer",
+      "data": {
+        "packageName": "cf-html5-apps-repo-cli-plugin",
+        "packageOwner": "SAP",
+        "originUrl": "/r/github.com/SAP/cf-html5-apps-repo-cli-plugin",
+        "commitSha": "138c32f32121c7854cdab78200ee6d1c88e26f97",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/SAP_cf-html5-apps-repo-cli-plugin.spdx.json",
+        "stars": 45,
+        "contributors": 640,
+        "commits": 120,
+        "lastUpdate": "2026-02-01T21:46:49Z",
+        "latestRelease": "2018-12-19T16:19:22Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Cloud Foundry CLI plugin to work with SAP Cloud HTML5 Applications Repository",
+        "paper": null
+      }
+    },
+    {
+      "id": "hansemannn/titanium-firebase-analytics",
+      "label": "titanium-firebase-analytics",
+      "type": "consumer",
+      "data": {
+        "packageName": "titanium-firebase-analytics",
+        "packageOwner": "hansemannn",
+        "originUrl": "/r/github.com/hansemannn/titanium-firebase-analytics",
+        "commitSha": "fae7d014dbd302397fe60f9334e91115e98f0031",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/hansemannn_titanium-firebase-analytics.spdx.json",
+        "stars": 34,
+        "contributors": 8,
+        "commits": 135,
+        "lastUpdate": "2025-09-22T07:26:23Z",
+        "latestRelease": "2017-10-23T22:05:01Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Use the Firebase Analytics SDK in Axway Titanium \ud83d\ude80",
+        "paper": null
+      }
+    },
+    {
+      "id": "abuanwar072/Build-an-Animated-App-with-Rive-and-Flutter",
+      "label": "Build-an-Animated-App-with-Rive-and-Flutter",
+      "type": "consumer",
+      "data": {
+        "packageName": "Build-an-Animated-App-with-Rive-and-Flutter",
+        "packageOwner": "abuanwar072",
+        "originUrl": "/r/github.com/abuanwar072/Build-an-Animated-App-with-Rive-and-Flutter",
+        "commitSha": "9a8ae6d76ea5f2ca5e18467d12f6e6795ee674d1",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/abuanwar072_Build-an-Animated-App-with-Rive-and-Flutter.spdx.json",
+        "stars": 354,
+        "contributors": 2,
+        "commits": 32,
+        "lastUpdate": "2026-02-17T17:49:50Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": null,
+        "paper": null
+      }
+    },
+    {
+      "id": "home-assistant/Iconic",
+      "label": "Iconic",
+      "type": "consumer",
+      "data": {
+        "packageName": "Iconic",
+        "packageOwner": "home-assistant",
+        "originUrl": "/r/github.com/home-assistant/Iconic",
+        "commitSha": "caa4171338f77f72644f2fd684d7d31fe903fac9",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/home-assistant_Iconic.spdx.json",
+        "stars": 1572,
+        "contributors": 26,
+        "commits": 205,
+        "lastUpdate": "2025-12-20T03:40:07Z",
+        "latestRelease": "2016-06-25T22:08:29Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": ":art: Auto-generated icon font library for iOS, watchOS and tvOS",
+        "paper": null
+      }
+    },
+    {
+      "id": "joeshang/GerritJarvis",
+      "label": "GerritJarvis",
+      "type": "consumer",
+      "data": {
+        "packageName": "GerritJarvis",
+        "packageOwner": "joeshang",
+        "originUrl": "/r/github.com/joeshang/GerritJarvis",
+        "commitSha": "5292a4d5236147a3511d746a6ad9927641c6a41e",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/joeshang_GerritJarvis.spdx.json",
+        "stars": 47,
+        "contributors": 1,
+        "commits": 57,
+        "lastUpdate": "2025-09-05T18:06:45Z",
+        "latestRelease": "2019-08-19T03:03:28Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "A mac app which for event notification of gerrit code review",
+        "paper": null
+      }
+    },
+    {
+      "id": "shima11/TapCardView",
+      "label": "TapCardView",
+      "type": "consumer",
+      "data": {
+        "packageName": "TapCardView",
+        "packageOwner": "shima11",
+        "originUrl": "/r/github.com/shima11/TapCardView",
+        "commitSha": "12a6206a181ced5f5156e48aa523890d3f154265",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/shima11_TapCardView.spdx.json",
+        "stars": 51,
+        "contributors": 1,
+        "commits": 29,
+        "lastUpdate": "2025-10-13T11:18:20Z",
+        "latestRelease": "2018-05-19T17:21:31Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "UIView to detect a tap position.",
+        "paper": null
+      }
+    },
+    {
+      "id": "TheAbstractDev/NotchyAlert",
+      "label": "NotchyAlert",
+      "type": "consumer",
+      "data": {
+        "packageName": "NotchyAlert",
+        "packageOwner": "TheAbstractDev",
+        "originUrl": "/r/github.com/TheAbstractDev/NotchyAlert",
+        "commitSha": "8959278d6a89347a9a413eef227596d359744db8",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/TheAbstractDev_NotchyAlert.spdx.json",
+        "stars": 71,
+        "contributors": 3,
+        "commits": 103,
+        "lastUpdate": "2023-08-17T11:52:46Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "\ud83d\udea8Use the iPhone X Notch to display alerts. \ud83d\udea8",
+        "paper": null
+      }
+    },
+    {
+      "id": "dkw5877/FlowCoordinators",
+      "label": "FlowCoordinators",
+      "type": "consumer",
+      "data": {
+        "packageName": "FlowCoordinators",
+        "packageOwner": "dkw5877",
+        "originUrl": "/r/github.com/dkw5877/FlowCoordinators",
+        "commitSha": "98f0c7b2a841eb9f6dc6be4388319f470274c68b",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/dkw5877_FlowCoordinators.spdx.json",
+        "stars": 41,
+        "contributors": 1,
+        "commits": 11,
+        "lastUpdate": "2025-04-27T14:43:54Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "Implementation of Appllication Controller Pattern in iOS and Swift",
+        "paper": null
+      }
+    },
+    {
+      "id": "kitecomp/kitekit",
+      "label": "kitekit",
+      "type": "consumer",
+      "data": {
+        "packageName": "kitekit",
+        "packageOwner": "kitecomp",
+        "originUrl": "/r/github.com/kitecomp/kitekit",
+        "commitSha": "29f4a40735a524f9d40b5319d68ac21e74102e63",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/kitecomp_kitekit.spdx.json",
+        "stars": 179,
+        "contributors": 2,
+        "commits": 12,
+        "lastUpdate": "2025-11-07T14:21:03Z",
+        "latestRelease": "2017-03-10T00:11:39Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "KiteKit for iOS and Mac",
+        "paper": null
+      }
+    },
+    {
+      "id": "freelancer/ios-modular-architecture",
+      "label": "ios-modular-architecture",
+      "type": "consumer",
+      "data": {
+        "packageName": "ios-modular-architecture",
+        "packageOwner": "freelancer",
+        "originUrl": "/r/github.com/freelancer/ios-modular-architecture",
+        "commitSha": "4d0591e2258c4d7fa88518f0ca63a85bd1816063",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/freelancer_ios-modular-architecture.spdx.json",
+        "stars": 66,
+        "contributors": 2,
+        "commits": 5,
+        "lastUpdate": "2024-10-05T03:43:44Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": null,
+        "paper": null
+      }
+    },
+    {
+      "id": "szlsay/STKitSwift",
+      "label": "STKitSwift",
+      "type": "consumer",
+      "data": {
+        "packageName": "STKitSwift",
+        "packageOwner": "szlsay",
+        "originUrl": "/r/github.com/szlsay/STKitSwift",
+        "commitSha": "fc7dd57925469cbed14498417f558047b224ccca",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/szlsay_STKitSwift.spdx.json",
+        "stars": 55,
+        "contributors": 1,
+        "commits": 66,
+        "lastUpdate": "2024-08-20T03:43:41Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "STKitSwift is a collection of useful classes and categories to develop Apps faster. ",
+        "paper": null
+      }
+    },
+    {
+      "id": "Estimote/iOS-Proximity-SDK",
+      "label": "iOS-Proximity-SDK",
+      "type": "consumer",
+      "data": {
+        "packageName": "iOS-Proximity-SDK",
+        "packageOwner": "Estimote",
+        "originUrl": "/r/github.com/Estimote/iOS-Proximity-SDK",
+        "commitSha": "98f01cab3e902569036ca2c732fa5b3112a8d9db",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/Estimote_iOS-Proximity-SDK.spdx.json",
+        "stars": 62,
+        "contributors": 12,
+        "commits": 70,
+        "lastUpdate": "2025-09-01T08:39:20Z",
+        "latestRelease": "2017-12-20T12:59:12Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Estimote Proximity SDK for iOS",
+        "paper": null
+      }
+    },
+    {
+      "id": "lkzhao/AppStoreTransition",
+      "label": "AppStoreTransition",
+      "type": "consumer",
+      "data": {
+        "packageName": "AppStoreTransition",
+        "packageOwner": "lkzhao",
+        "originUrl": "/r/github.com/lkzhao/AppStoreTransition",
+        "commitSha": "ca37856cc48fed28d7dd886b5509396a2dcd0d8f",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/lkzhao_AppStoreTransition.spdx.json",
+        "stars": 38,
+        "contributors": 1,
+        "commits": 1,
+        "lastUpdate": "2023-11-01T19:58:21Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "Card transition demo similar to iOS 11 App Store. Build with Hero",
+        "paper": null
+      }
+    },
+    {
+      "id": "philiphardy/ID3Edit",
+      "label": "ID3Edit",
+      "type": "consumer",
+      "data": {
+        "packageName": "ID3Edit",
+        "packageOwner": "philiphardy",
+        "originUrl": "/r/github.com/philiphardy/ID3Edit",
+        "commitSha": "3ee405b7efd7102b0ecbcb555f371eb3e27afdec",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/philiphardy_ID3Edit.spdx.json",
+        "stars": 82,
+        "contributors": 2,
+        "commits": 35,
+        "lastUpdate": "2026-02-13T12:22:09Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "A Swift framework to edit ID3 tags on MP3 files",
+        "paper": null
+      }
+    },
+    {
+      "id": "BohdanOrlov/iOS-Developer-Roadmap",
+      "label": "iOS-Developer-Roadmap",
+      "type": "consumer",
+      "data": {
+        "packageName": "iOS-Developer-Roadmap",
+        "packageOwner": "BohdanOrlov",
+        "originUrl": "/r/github.com/BohdanOrlov/iOS-Developer-Roadmap",
+        "commitSha": "1f5a63544933aa76821d29249862c9c97ea6bbe0",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/BohdanOrlov_iOS-Developer-Roadmap.spdx.json",
+        "stars": 6421,
+        "contributors": 18,
+        "commits": 173,
+        "lastUpdate": "2026-02-24T07:34:20Z",
+        "latestRelease": "",
+        "license": "None",
+        "isFork": false,
+        "description": "Roadmap to becoming an iOS developer in 2018.",
+        "paper": null
+      }
+    },
+    {
+      "id": "2BAB/MediaPiper",
+      "label": "MediaPiper",
+      "type": "consumer",
+      "data": {
+        "packageName": "MediaPiper",
+        "packageOwner": "2BAB",
+        "originUrl": "/r/github.com/2BAB/MediaPiper",
+        "commitSha": "832f05c904a3b0cfab77e88aca9c491e843b6228",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/2BAB_MediaPiper.spdx.json",
+        "stars": 33,
+        "contributors": 1,
+        "commits": 15,
+        "lastUpdate": "2026-02-24T20:43:06Z",
+        "latestRelease": "",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "MediaPipe samples with Kotlin Multiplatform",
+        "paper": null
+      }
+    },
+    {
+      "id": "BeamNG/remotecontrol",
+      "label": "remotecontrol",
+      "type": "consumer",
+      "data": {
+        "packageName": "remotecontrol",
+        "packageOwner": "BeamNG",
+        "originUrl": "/r/github.com/BeamNG/remotecontrol",
+        "commitSha": "f03e8be0848402ecaaf8340ce3474b5575208209",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/BeamNG_remotecontrol.spdx.json",
+        "stars": 57,
+        "contributors": 8,
+        "commits": 100,
+        "lastUpdate": "2026-02-14T19:41:23Z",
+        "latestRelease": "2015-12-09T12:43:31Z",
+        "license": "ISC License",
+        "isFork": false,
+        "description": "Remote Control App for BeamNG.drive",
+        "paper": null
+      }
+    },
+    {
+      "id": "iProov/ios",
+      "label": "ios",
+      "type": "consumer",
+      "data": {
+        "packageName": "ios",
+        "packageOwner": "iProov",
+        "originUrl": "/r/github.com/iProov/ios",
+        "commitSha": "1715e64ba336a2b154f5fd6a4795442a8dae4a5a",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/iProov_ios.spdx.json",
+        "stars": 32,
+        "contributors": 22,
+        "commits": 149,
+        "lastUpdate": "2026-02-23T14:30:38Z",
+        "latestRelease": "2019-04-10T16:26:16Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "iProov iOS SDK",
+        "paper": null
+      }
+    },
+    {
+      "id": "VLprojects/mediasoup-client-swift",
+      "label": "mediasoup-client-swift",
+      "type": "consumer",
+      "data": {
+        "packageName": "mediasoup-client-swift",
+        "packageOwner": "VLprojects",
+        "originUrl": "/r/github.com/VLprojects/mediasoup-client-swift",
+        "commitSha": "d86c622b7a291415ef468656861bfd19b2ebe59a",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/VLprojects_mediasoup-client-swift.spdx.json",
+        "stars": 61,
+        "contributors": 1,
+        "commits": 154,
+        "lastUpdate": "2026-02-22T00:12:03Z",
+        "latestRelease": "2022-06-15T05:46:05Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Swift wrapper for libmediasoupclient",
+        "paper": null
+      }
+    },
+    {
+      "id": "rkbhochalya/grayscale-mode",
+      "label": "grayscale-mode",
+      "type": "consumer",
+      "data": {
+        "packageName": "grayscale-mode",
+        "packageOwner": "rkbhochalya",
+        "originUrl": "/r/github.com/rkbhochalya/grayscale-mode",
+        "commitSha": "a008dafb68d088b6e3eddfa2192297499459eaa2",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/rkbhochalya_grayscale-mode.spdx.json",
+        "stars": 108,
+        "contributors": 1,
+        "commits": 57,
+        "lastUpdate": "2025-12-07T21:22:12Z",
+        "latestRelease": "2019-04-16T05:57:47Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "A macOS menu bar app that gives you more control over Grayscale Mode.",
+        "paper": null
+      }
+    },
+    {
+      "id": "NachoSoto/AsyncImageView",
+      "label": "AsyncImageView",
+      "type": "consumer",
+      "data": {
+        "packageName": "AsyncImageView",
+        "packageOwner": "NachoSoto",
+        "originUrl": "/r/github.com/NachoSoto/AsyncImageView",
+        "commitSha": "ed3f482f04df9289e57f4e8ad0a33cd5f27d3c64",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/NachoSoto_AsyncImageView.spdx.json",
+        "stars": 81,
+        "contributors": 4,
+        "commits": 348,
+        "lastUpdate": "2025-12-01T23:54:34Z",
+        "latestRelease": "2016-03-03T05:53:27Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "UIImageView for rendering data asynchronously, with composable renderers and caches",
+        "paper": null
+      }
+    },
+    {
+      "id": "swift-gestalt/SwiftGestalt",
+      "label": "SwiftGestalt",
+      "type": "consumer",
+      "data": {
+        "packageName": "SwiftGestalt",
+        "packageOwner": "swift-gestalt",
+        "originUrl": "/r/github.com/swift-gestalt/SwiftGestalt",
+        "commitSha": "35662f0f29ce4cfb1d3c28702208ea333ec87d77",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/swift-gestalt_SwiftGestalt.spdx.json",
+        "stars": 42,
+        "contributors": 1,
+        "commits": 2,
+        "lastUpdate": "2025-05-28T10:53:22Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Native Swift Runtime Libraries",
+        "paper": null
+      }
+    },
+    {
+      "id": "jwd-ali/RingPieChart",
+      "label": "RingPieChart",
+      "type": "consumer",
+      "data": {
+        "packageName": "RingPieChart",
+        "packageOwner": "jwd-ali",
+        "originUrl": "/r/github.com/jwd-ali/RingPieChart",
+        "commitSha": "8a5a76c1f6db562ab382bebb4b7c079b30fc4008",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/jwd-ali_RingPieChart.spdx.json",
+        "stars": 39,
+        "contributors": 1,
+        "commits": 70,
+        "lastUpdate": "2026-02-05T08:05:04Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "If you want to add circular pie chart in your application then RingPieChart can be a good choice containing number of  animations and its Easy to use framework ",
+        "paper": null
+      }
+    },
+    {
+      "id": "BridgeNetworking/Bridge",
+      "label": "Bridge",
+      "type": "consumer",
+      "data": {
+        "packageName": "Bridge",
+        "packageOwner": "BridgeNetworking",
+        "originUrl": "/r/github.com/BridgeNetworking/Bridge",
+        "commitSha": "0d998a3eaf7003b70248c08f129ca8f33c4b33c4",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/BridgeNetworking_Bridge.spdx.json",
+        "stars": 89,
+        "contributors": 4,
+        "commits": 64,
+        "lastUpdate": "2024-03-10T10:05:31Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Extensible HTTP Networking for iOS",
+        "paper": null
+      }
+    },
+    {
+      "id": "feicong/macbook",
+      "label": "macbook",
+      "type": "consumer",
+      "data": {
+        "packageName": "macbook",
+        "packageOwner": "feicong",
+        "originUrl": "/r/github.com/feicong/macbook",
+        "commitSha": "379000f4c54ae1af8b8b42f72939df011bddd734",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/feicong_macbook.spdx.json",
+        "stars": 381,
+        "contributors": 1,
+        "commits": 8,
+        "lastUpdate": "2026-02-08T18:38:20Z",
+        "latestRelease": "",
+        "license": "GNU Affero General Public License v3.0",
+        "isFork": false,
+        "description": "\u300amacOS\u8f6f\u4ef6\u5b89\u5168\u4e0e\u9006\u5411\u5206\u6790\u300b\u968f\u4e66\u6e90\u7801",
+        "paper": null
+      }
+    },
+    {
+      "id": "lucasderraugh/AppleProg-Cocoa-Tutorials",
+      "label": "AppleProg-Cocoa-Tutorials",
+      "type": "consumer",
+      "data": {
+        "packageName": "AppleProg-Cocoa-Tutorials",
+        "packageOwner": "lucasderraugh",
+        "originUrl": "/r/github.com/lucasderraugh/AppleProg-Cocoa-Tutorials",
+        "commitSha": "a1e98cca913835934ae2c618b9a238b58ce02216",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/lucasderraugh_AppleProg-Cocoa-Tutorials.spdx.json",
+        "stars": 151,
+        "contributors": 1,
+        "commits": 61,
+        "lastUpdate": "2026-01-02T10:25:37Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Cocoa tutorials from YouTube",
+        "paper": null
+      }
+    },
+    {
+      "id": "nicolastinkl/UUVPN",
+      "label": "UUVPN",
+      "type": "consumer",
+      "data": {
+        "packageName": "UUVPN",
+        "packageOwner": "nicolastinkl",
+        "originUrl": "/r/github.com/nicolastinkl/UUVPN",
+        "commitSha": "15a3508a0b6289c81756395c24ef2826f8347027",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/nicolastinkl_UUVPN.spdx.json",
+        "stars": 459,
+        "contributors": 3,
+        "commits": 183,
+        "lastUpdate": "2026-03-02T04:10:05Z",
+        "latestRelease": "2024-07-07T16:43:56Z",
+        "license": "GNU Affero General Public License v3.0",
+        "isFork": false,
+        "description": "\u57fa\u4e8e\u539f\u751f\u7ec4\u4ef6\u5f00\u53d1\u7684VPN\u5ba2\u6237\u7aef(ios/android)\uff0c\u81ea\u4e3b\u8bbe\u8ba1\uff0c\u7cbe\u7f8eUI,\u4f18\u5316VPN\u901f\u5ea6\uff0c\u5b8c\u5168\u5f00\u6e90\u3002",
+        "paper": null
+      }
+    },
+    {
+      "id": "vyasanirudh/AVCalendar",
+      "label": "AVCalendar",
+      "type": "consumer",
+      "data": {
+        "packageName": "AVCalendar",
+        "packageOwner": "vyasanirudh",
+        "originUrl": "/r/github.com/vyasanirudh/AVCalendar",
+        "commitSha": "2faa3fdca773244984b69cefde11a7e15b26ea61",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/vyasanirudh_AVCalendar.spdx.json",
+        "stars": 43,
+        "contributors": 1,
+        "commits": 29,
+        "lastUpdate": "2025-11-17T04:05:38Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "A sample to demonstrate the usage of AVCalendarFramework",
+        "paper": null
+      }
+    },
+    {
+      "id": "SafeExamBrowser/seb-mac",
+      "label": "seb-mac",
+      "type": "consumer",
+      "data": {
+        "packageName": "seb-mac",
+        "packageOwner": "SafeExamBrowser",
+        "originUrl": "/r/github.com/SafeExamBrowser/seb-mac",
+        "commitSha": "bbb9cef82da970c3bfb540235689845642f0567c",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/SafeExamBrowser_seb-mac.spdx.json",
+        "stars": 122,
+        "contributors": 7,
+        "commits": 6297,
+        "lastUpdate": "2026-02-20T16:55:31Z",
+        "latestRelease": "2015-11-10T13:25:01Z",
+        "license": "None",
+        "isFork": false,
+        "description": "Safe Exam Browser for macOS and iOS",
+        "paper": null
+      }
+    },
+    {
+      "id": "alexdrone/Buffer",
+      "label": "Buffer",
+      "type": "consumer",
+      "data": {
+        "packageName": "Buffer",
+        "packageOwner": "alexdrone",
+        "originUrl": "/r/github.com/alexdrone/Buffer",
+        "commitSha": "7a96a74760ff4e91973f5d164625f9e04746d1a9",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/alexdrone_Buffer.spdx.json",
+        "stars": 351,
+        "contributors": 2,
+        "commits": 82,
+        "lastUpdate": "2025-03-23T10:48:52Z",
+        "latestRelease": "2016-11-13T20:54:14Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Swift \u03bc-framework for efficient array diffs and datasource adapters.",
+        "paper": null
+      }
+    },
+    {
+      "id": "YamatoOtaka/Sweetfish",
+      "label": "Sweetfish",
+      "type": "consumer",
+      "data": {
+        "packageName": "Sweetfish",
+        "packageOwner": "YamatoOtaka",
+        "originUrl": "/r/github.com/YamatoOtaka/Sweetfish",
+        "commitSha": "a17a26086d5e7aeb02826b45c9ce2a11c0e1a022",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/YamatoOtaka_Sweetfish.spdx.json",
+        "stars": 36,
+        "contributors": 1,
+        "commits": 50,
+        "lastUpdate": "2025-05-31T01:31:58Z",
+        "latestRelease": "2020-04-19T15:07:33Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Sweetfish is a UIImageView wrapper library for removing backgrounds using Vision Framework's Image Segmentation \ud83d\udcf8 \ud83c\udfa3",
+        "paper": null
+      }
+    },
+    {
+      "id": "aliyun/aliyun-log-ios-sdk",
+      "label": "aliyun-log-ios-sdk",
+      "type": "consumer",
+      "data": {
+        "packageName": "aliyun-log-ios-sdk",
+        "packageOwner": "aliyun",
+        "originUrl": "/r/github.com/aliyun/aliyun-log-ios-sdk",
+        "commitSha": "9f12d40a8bda23d0775963401e29d6a2954c7e51",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/aliyun_aliyun-log-ios-sdk.spdx.json",
+        "stars": 91,
+        "contributors": 17,
+        "commits": 649,
+        "lastUpdate": "2025-12-10T07:30:43Z",
+        "latestRelease": "2016-08-30T09:05:06Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Aliyun LOG iOS SDK",
+        "paper": null
+      }
+    },
+    {
+      "id": "Antondomashnev/ADMozaicCollectionViewLayout",
+      "label": "ADMozaicCollectionViewLayout",
+      "type": "consumer",
+      "data": {
+        "packageName": "ADMozaicCollectionViewLayout",
+        "packageOwner": "Antondomashnev",
+        "originUrl": "/r/github.com/Antondomashnev/ADMozaicCollectionViewLayout",
+        "commitSha": "9a3763502f8635ac77c72be9173f03fce5f5bc5b",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/Antondomashnev_ADMozaicCollectionViewLayout.spdx.json",
+        "stars": 224,
+        "contributors": 3,
+        "commits": 85,
+        "lastUpdate": "2025-10-20T22:31:13Z",
+        "latestRelease": "2016-06-20T20:57:56Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "ADMozaicCollectionViewLayout is yet another UICollectionViewLayout subclass that implements \"brick\", \"mozaic\" or Pinterest style layout.",
+        "paper": null
+      }
+    },
+    {
+      "id": "MobileNativeFoundation/swift-index-store",
+      "label": "swift-index-store",
+      "type": "consumer",
+      "data": {
+        "packageName": "swift-index-store",
+        "packageOwner": "MobileNativeFoundation",
+        "originUrl": "/r/github.com/MobileNativeFoundation/swift-index-store",
+        "commitSha": "c4665d1c0897f45add476bb78692cbf1821c0e7a",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/MobileNativeFoundation_swift-index-store.spdx.json",
+        "stars": 156,
+        "contributors": 13,
+        "commits": 52,
+        "lastUpdate": "2026-02-24T05:06:56Z",
+        "latestRelease": "2022-10-27T17:39:27Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Library to read from Swift / clang source code indexes",
+        "paper": null
+      }
+    },
+    {
+      "id": "MobileNativeFoundation/rules_xcodeproj",
+      "label": "rules_xcodeproj",
+      "type": "consumer",
+      "data": {
+        "packageName": "rules_xcodeproj",
+        "packageOwner": "MobileNativeFoundation",
+        "originUrl": "/r/github.com/MobileNativeFoundation/rules_xcodeproj",
+        "commitSha": "e1bcd9ea8f3aa3b7f5c299247fca2c4fcc9df573",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/MobileNativeFoundation_rules_xcodeproj.spdx.json",
+        "stars": 610,
+        "contributors": 63,
+        "commits": 2746,
+        "lastUpdate": "2026-03-01T06:12:08Z",
+        "latestRelease": "2022-04-05T15:25:06Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Bazel rules for generating Xcode projects.",
+        "paper": null
+      }
+    },
+    {
+      "id": "openwch/ch583",
+      "label": "ch583",
+      "type": "consumer",
+      "data": {
+        "packageName": "ch583",
+        "packageOwner": "openwch",
+        "originUrl": "/r/github.com/openwch/ch583",
+        "commitSha": "bd508ad7ceed48377619837051412a651952857f",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/openwch_ch583.spdx.json",
+        "stars": 176,
+        "contributors": 4,
+        "commits": 83,
+        "lastUpdate": "2026-02-13T14:22:46Z",
+        "latestRelease": "",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "The datasheet/SDK/HDK docmentation of Bluetooth LE RISC-V MCU CH582M/CH583M",
+        "paper": null
+      }
+    },
+    {
+      "id": "soxjke/Redux-ReactiveSwift",
+      "label": "Redux-ReactiveSwift",
+      "type": "consumer",
+      "data": {
+        "packageName": "Redux-ReactiveSwift",
+        "packageOwner": "soxjke",
+        "originUrl": "/r/github.com/soxjke/Redux-ReactiveSwift",
+        "commitSha": "c1b9b5d6eb7abd696de55703ed1ba80dcdf35ffb",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/soxjke_Redux-ReactiveSwift.spdx.json",
+        "stars": 30,
+        "contributors": 3,
+        "commits": 83,
+        "lastUpdate": "2025-02-06T16:03:06Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Redux implementation over ReactiveSwift",
+        "paper": null
+      }
+    },
+    {
+      "id": "chenjie1219/IPADownload",
+      "label": "IPADownload",
+      "type": "consumer",
+      "data": {
+        "packageName": "IPADownload",
+        "packageOwner": "chenjie1219",
+        "originUrl": "/r/github.com/chenjie1219/IPADownload",
+        "commitSha": "5b68695104c8fa00dba3420e41d7250274df0c89",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/chenjie1219_IPADownload.spdx.json",
+        "stars": 284,
+        "contributors": 1,
+        "commits": 8,
+        "lastUpdate": "2026-01-19T05:51:37Z",
+        "latestRelease": "2018-10-26T02:38:50Z",
+        "license": "GNU General Public License v2.0",
+        "isFork": false,
+        "description": "Search and download decrypted IPA file from 3rd-party App Store.",
+        "paper": null
+      }
+    },
+    {
+      "id": "xmartlabs/Bender",
+      "label": "Bender",
+      "type": "consumer",
+      "data": {
+        "packageName": "Bender",
+        "packageOwner": "xmartlabs",
+        "originUrl": "/r/github.com/xmartlabs/Bender",
+        "commitSha": "67b326a815e2bfd7f8df264c84b1ee0f1a0b4d51",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/xmartlabs_Bender.spdx.json",
+        "stars": 1802,
+        "contributors": 27,
+        "commits": 92,
+        "lastUpdate": "2026-02-20T09:56:07Z",
+        "latestRelease": "2017-06-05T17:46:16Z",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "Easily craft fast Neural Networks on iOS! Use TensorFlow models. Metal under the hood.",
+        "paper": null
+      }
+    },
+    {
+      "id": "google/bloaty",
+      "label": "bloaty",
+      "type": "consumer",
+      "data": {
+        "packageName": "bloaty",
+        "packageOwner": "google",
+        "originUrl": "/r/github.com/google/bloaty",
+        "commitSha": "073e01d04fc06d64eeb5cdb9adeae035a34e4b13",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/google_bloaty.spdx.json",
+        "stars": 5389,
+        "contributors": 71,
+        "commits": 788,
+        "lastUpdate": "2026-03-02T03:41:06Z",
+        "latestRelease": "2018-08-07T22:36:36Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Bloaty: a size profiler for binaries",
+        "paper": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "vllm-project/vllm",
+      "target": "scorec/core"
+    },
+    {
+      "source": "torvalds/linux",
+      "target": "scorec/core"
+    },
+    {
+      "source": "microsoft/PowerToys",
+      "target": "scorec/core"
+    },
+    {
+      "source": "swiftlang/swift",
+      "target": "scorec/core"
+    },
+    {
+      "source": "microsoft/aici",
+      "target": "vllm-project/vllm"
+    },
+    {
+      "source": "casper-hansen/AutoAWQ_kernels",
+      "target": "vllm-project/vllm"
+    },
+    {
+      "source": "MapIV/iris",
+      "target": "vllm-project/vllm"
+    },
+    {
+      "source": "CASE-Lab-UMD/LLM-Drop",
+      "target": "vllm-project/vllm"
+    },
+    {
+      "source": "CASE-Lab-UMD/Unified-MoE-Compression",
+      "target": "vllm-project/vllm"
+    },
+    {
+      "source": "nodejs/node",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "LadybirdBrowser/ladybird",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "oven-sh/bun",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "commaai/openpilot",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "bitcoin/bitcoin",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "pytorch/pytorch",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "tensorflow/tensorflow",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "swiftlang/swift",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "rust-lang/rust",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "jesseduffield/lazygit",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "obsproject/obs-studio",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "RWS-Studios/POSTAL-SourceCode",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "ggml-org/llama.cpp",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "python/cpython",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "JetBrains/kotlin",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "kubernetes/kubernetes",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "androidvirtualpen/virtualpen",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "starius/logic-bomb",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "0x27/linux.mirai",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "golems/ach",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "libretro/blastem",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "Trinkle23897/router",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "ningzhenyu/nailgun",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "james34602/UPX-Visual-Studio",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "openai/codex",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "flutter/flutter",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "linkdd/logfmtxx",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "xor2003/masm2c",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "XboxUnity/freestyledash",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "FozzTexx/ninepin",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "NetApp/zufs-zus",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "apache/apr",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "Frogwells/fpga_design",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "LINBIT/drbdtop",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "cmtp-responder/cmtp-responder",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "antirez/disque-module",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "openfaas/ingress-operator",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "netdata/netdata",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "Jiu-xiao/libxr",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "apitrace/apitrace",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "SAP/cf-html5-apps-repo-cli-plugin",
+      "target": "torvalds/linux"
+    },
+    {
+      "source": "JetBrains/kotlin",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "hansemannn/titanium-firebase-analytics",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "abuanwar072/Build-an-Animated-App-with-Rive-and-Flutter",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "home-assistant/Iconic",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "joeshang/GerritJarvis",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "shima11/TapCardView",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "TheAbstractDev/NotchyAlert",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "dkw5877/FlowCoordinators",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "kitecomp/kitekit",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "freelancer/ios-modular-architecture",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "szlsay/STKitSwift",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "Estimote/iOS-Proximity-SDK",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "lkzhao/AppStoreTransition",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "philiphardy/ID3Edit",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "BohdanOrlov/iOS-Developer-Roadmap",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "2BAB/MediaPiper",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "BeamNG/remotecontrol",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "iProov/ios",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "VLprojects/mediasoup-client-swift",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "rkbhochalya/grayscale-mode",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "NachoSoto/AsyncImageView",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "swift-gestalt/SwiftGestalt",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "jwd-ali/RingPieChart",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "BridgeNetworking/Bridge",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "feicong/macbook",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "lucasderraugh/AppleProg-Cocoa-Tutorials",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "nicolastinkl/UUVPN",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "vyasanirudh/AVCalendar",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "SafeExamBrowser/seb-mac",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "alexdrone/Buffer",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "YamatoOtaka/Sweetfish",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "aliyun/aliyun-log-ios-sdk",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "Antondomashnev/ADMozaicCollectionViewLayout",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "MobileNativeFoundation/swift-index-store",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "openwch/ch583",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "soxjke/Redux-ReactiveSwift",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "chenjie1219/IPADownload",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "xmartlabs/Bender",
+      "target": "swiftlang/swift"
+    },
+    {
+      "source": "google/bloaty",
+      "target": "swiftlang/swift"
+    }
+  ]
+}

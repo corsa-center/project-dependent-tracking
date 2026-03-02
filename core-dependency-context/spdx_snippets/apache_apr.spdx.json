@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apr Dependency Manifest",
+  "documentNamespace": "https://github.com/apache/apr/spdx/e461da5864fdd2fca6a15ec8d6c42d7f67c5f199",
+  "packages": [
+    {
+      "name": "apr",
+      "SPDXID": "SPDXRef-Package-apache-apr",
+      "versionInfo": "e461da5864fdd2fca6a15ec8d6c42d7f67c5f199",
+      "downloadLocation": "git+https://github.com/apache/apr.git@e461da5864fdd2fca6a15ec8d6c42d7f67c5f199",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apache-apr",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

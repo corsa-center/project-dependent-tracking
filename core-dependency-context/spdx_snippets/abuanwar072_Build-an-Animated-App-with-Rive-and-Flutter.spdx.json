@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Build-an-Animated-App-with-Rive-and-Flutter Dependency Manifest",
+  "documentNamespace": "https://github.com/abuanwar072/Build-an-Animated-App-with-Rive-and-Flutter/spdx/9a8ae6d76ea5f2ca5e18467d12f6e6795ee674d1",
+  "packages": [
+    {
+      "name": "Build-an-Animated-App-with-Rive-and-Flutter",
+      "SPDXID": "SPDXRef-Package-abuanwar072-Build-an-Animated-App-with-Rive-and-Flutter",
+      "versionInfo": "9a8ae6d76ea5f2ca5e18467d12f6e6795ee674d1",
+      "downloadLocation": "git+https://github.com/abuanwar072/Build-an-Animated-App-with-Rive-and-Flutter.git@9a8ae6d76ea5f2ca5e18467d12f6e6795ee674d1",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "swift",
+      "SPDXID": "SPDXRef-Package-swiftlang-swift",
+      "versionInfo": "c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "downloadLocation": "git+https://github.com/swiftlang/swift.git@c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-abuanwar072-Build-an-Animated-App-with-Rive-and-Flutter",
+      "relatedSpdxElement": "SPDXRef-Package-swiftlang-swift",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

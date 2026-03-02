@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "UPX-Visual-Studio Dependency Manifest",
+  "documentNamespace": "https://github.com/james34602/UPX-Visual-Studio/spdx/ecd034fa4c89b7019fdc9ca0e1d34bf5cad9e3ac",
+  "packages": [
+    {
+      "name": "UPX-Visual-Studio",
+      "SPDXID": "SPDXRef-Package-james34602-UPX-Visual-Studio",
+      "versionInfo": "ecd034fa4c89b7019fdc9ca0e1d34bf5cad9e3ac",
+      "downloadLocation": "git+https://github.com/james34602/UPX-Visual-Studio.git@ecd034fa4c89b7019fdc9ca0e1d34bf5cad9e3ac",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-james34602-UPX-Visual-Studio",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

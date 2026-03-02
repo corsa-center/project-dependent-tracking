@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "blastem Dependency Manifest",
+  "documentNamespace": "https://github.com/libretro/blastem/spdx/277e4a62668597d4f59cadda1cbafb844f981d45",
+  "packages": [
+    {
+      "name": "blastem",
+      "SPDXID": "SPDXRef-Package-libretro-blastem",
+      "versionInfo": "277e4a62668597d4f59cadda1cbafb844f981d45",
+      "downloadLocation": "git+https://github.com/libretro/blastem.git@277e4a62668597d4f59cadda1cbafb844f981d45",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-libretro-blastem",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

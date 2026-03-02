@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "masm2c Dependency Manifest",
+  "documentNamespace": "https://github.com/xor2003/masm2c/spdx/027cca02f5a6ac0ffff339ec27522f7be85c87b1",
+  "packages": [
+    {
+      "name": "masm2c",
+      "SPDXID": "SPDXRef-Package-xor2003-masm2c",
+      "versionInfo": "027cca02f5a6ac0ffff339ec27522f7be85c87b1",
+      "downloadLocation": "git+https://github.com/xor2003/masm2c.git@027cca02f5a6ac0ffff339ec27522f7be85c87b1",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-xor2003-masm2c",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

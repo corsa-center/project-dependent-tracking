@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "drbdtop Dependency Manifest",
+  "documentNamespace": "https://github.com/LINBIT/drbdtop/spdx/ad225d114864e7519e7f1d81e8e6e31048f32a45",
+  "packages": [
+    {
+      "name": "drbdtop",
+      "SPDXID": "SPDXRef-Package-LINBIT-drbdtop",
+      "versionInfo": "ad225d114864e7519e7f1d81e8e6e31048f32a45",
+      "downloadLocation": "git+https://github.com/LINBIT/drbdtop.git@ad225d114864e7519e7f1d81e8e6e31048f32a45",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-LINBIT-drbdtop",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

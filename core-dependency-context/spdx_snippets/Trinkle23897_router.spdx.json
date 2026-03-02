@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "router Dependency Manifest",
+  "documentNamespace": "https://github.com/Trinkle23897/router/spdx/7171270664501f0bfcf724f8600f781692eb1f92",
+  "packages": [
+    {
+      "name": "router",
+      "SPDXID": "SPDXRef-Package-Trinkle23897-router",
+      "versionInfo": "7171270664501f0bfcf724f8600f781692eb1f92",
+      "downloadLocation": "git+https://github.com/Trinkle23897/router.git@7171270664501f0bfcf724f8600f781692eb1f92",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-Trinkle23897-router",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

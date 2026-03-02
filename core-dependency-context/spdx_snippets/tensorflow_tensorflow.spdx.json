@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "tensorflow Dependency Manifest",
+  "documentNamespace": "https://github.com/tensorflow/tensorflow/spdx/ee367f1c631298492e95c343d058cccf79237f98",
+  "packages": [
+    {
+      "name": "tensorflow",
+      "SPDXID": "SPDXRef-Package-tensorflow-tensorflow",
+      "versionInfo": "ee367f1c631298492e95c343d058cccf79237f98",
+      "downloadLocation": "git+https://github.com/tensorflow/tensorflow.git@ee367f1c631298492e95c343d058cccf79237f98",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-tensorflow-tensorflow",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

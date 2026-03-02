@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apitrace Dependency Manifest",
+  "documentNamespace": "https://github.com/apitrace/apitrace/spdx/18cfd388ac47a9e00978b34d6c20341f3e2cdb56",
+  "packages": [
+    {
+      "name": "apitrace",
+      "SPDXID": "SPDXRef-Package-apitrace-apitrace",
+      "versionInfo": "18cfd388ac47a9e00978b34d6c20341f3e2cdb56",
+      "downloadLocation": "git+https://github.com/apitrace/apitrace.git@18cfd388ac47a9e00978b34d6c20341f3e2cdb56",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apitrace-apitrace",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

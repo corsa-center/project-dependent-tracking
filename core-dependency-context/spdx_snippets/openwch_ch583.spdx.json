@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "ch583 Dependency Manifest",
+  "documentNamespace": "https://github.com/openwch/ch583/spdx/bd508ad7ceed48377619837051412a651952857f",
+  "packages": [
+    {
+      "name": "ch583",
+      "SPDXID": "SPDXRef-Package-openwch-ch583",
+      "versionInfo": "bd508ad7ceed48377619837051412a651952857f",
+      "downloadLocation": "git+https://github.com/openwch/ch583.git@bd508ad7ceed48377619837051412a651952857f",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "swift",
+      "SPDXID": "SPDXRef-Package-swiftlang-swift",
+      "versionInfo": "c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "downloadLocation": "git+https://github.com/swiftlang/swift.git@c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-openwch-ch583",
+      "relatedSpdxElement": "SPDXRef-Package-swiftlang-swift",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "ninepin Dependency Manifest",
+  "documentNamespace": "https://github.com/FozzTexx/ninepin/spdx/e49854f8a455cf4ec679c53b860810eba473a9db",
+  "packages": [
+    {
+      "name": "ninepin",
+      "SPDXID": "SPDXRef-Package-FozzTexx-ninepin",
+      "versionInfo": "e49854f8a455cf4ec679c53b860810eba473a9db",
+      "downloadLocation": "git+https://github.com/FozzTexx/ninepin.git@e49854f8a455cf4ec679c53b860810eba473a9db",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-FozzTexx-ninepin",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

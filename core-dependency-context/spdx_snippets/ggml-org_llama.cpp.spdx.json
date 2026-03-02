@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "llama.cpp Dependency Manifest",
+  "documentNamespace": "https://github.com/ggml-org/llama.cpp/spdx/4d828bd1ab52773ba9570cc008cf209eb4a8b2f5",
+  "packages": [
+    {
+      "name": "llama.cpp",
+      "SPDXID": "SPDXRef-Package-ggml-org-llama-cpp",
+      "versionInfo": "4d828bd1ab52773ba9570cc008cf209eb4a8b2f5",
+      "downloadLocation": "git+https://github.com/ggml-org/llama.cpp.git@4d828bd1ab52773ba9570cc008cf209eb4a8b2f5",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "linux",
+      "SPDXID": "SPDXRef-Package-torvalds-linux",
+      "versionInfo": "af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "downloadLocation": "git+https://github.com/torvalds/linux.git@af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-ggml-org-llama-cpp",
+      "relatedSpdxElement": "SPDXRef-Package-torvalds-linux",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

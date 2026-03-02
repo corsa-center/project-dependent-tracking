@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Sweetfish Dependency Manifest",
+  "documentNamespace": "https://github.com/YamatoOtaka/Sweetfish/spdx/a17a26086d5e7aeb02826b45c9ce2a11c0e1a022",
+  "packages": [
+    {
+      "name": "Sweetfish",
+      "SPDXID": "SPDXRef-Package-YamatoOtaka-Sweetfish",
+      "versionInfo": "a17a26086d5e7aeb02826b45c9ce2a11c0e1a022",
+      "downloadLocation": "git+https://github.com/YamatoOtaka/Sweetfish.git@a17a26086d5e7aeb02826b45c9ce2a11c0e1a022",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "swift",
+      "SPDXID": "SPDXRef-Package-swiftlang-swift",
+      "versionInfo": "c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "downloadLocation": "git+https://github.com/swiftlang/swift.git@c710c7f4a0d0593fae0cc2dfeb3d018df6483016",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-YamatoOtaka-Sweetfish",
+      "relatedSpdxElement": "SPDXRef-Package-swiftlang-swift",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
