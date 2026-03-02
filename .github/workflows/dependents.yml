@@ -88,6 +88,7 @@ jobs:
 
       - name: Commit Graph and Snippets
         run: |
+          git config pull.rebase true
           git pull
           git config --global user.name "Audit Bot"
           git config --global user.email "bot@noreply.github.com"
