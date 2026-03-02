@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "scorec/pumi-pic"
+  },
+  "nodes": [
+    {
+      "id": "scorec/pumi-pic",
+      "label": "pumi-pic",
+      "type": "library",
+      "data": {
+        "packageName": "pumi-pic",
+        "packageOwner": "scorec",
+        "originUrl": "https://github.com/scorec/pumi-pic",
+        "commitSha": "7000cfdbf2d4bd39d9c6a37b2e53e5653bbf75b6",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 42,
+        "contributors": 23,
+        "commits": 1590,
+        "lastUpdate": "2025-12-24T10:39:03Z",
+        "latestRelease": "2021-03-30T19:22:05Z",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "support libraries for unstructured mesh particle in cell simulations on GPUs and CPUs",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
