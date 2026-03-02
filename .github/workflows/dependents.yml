@@ -1,0 +1,108 @@
+name: Monthly Supply Chain Audit
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+# only allow one run at a time
+# most recent run wins
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    strategy:
+        matrix:
+            projects: [
+                {repo: ornladios/adios2, name: adios2},
+                {repo: anlsys/aml, name: aml},
+                {repo: amrex-codes/amrex, name: amrex},
+                {repo: alpine-dav/ascent, name: ascent},
+                {repo: berkeleylab/caffeine, name: caffeine},
+                {repo: chip-spv/chipstar, name: chipstar},
+                {repo: darshan-hpc/darshan, name: darshan},
+                {repo: deephyper/deephyper, name: deephyper},
+                {repo: diatomic/diy, name: diy},
+                {repo: dyninst/dyninst, name: dyninst},
+                {repo: berkeleylab/fiats, name: fiats},
+                {repo: ginkgo-project/ginkgo, name: ginkgo},
+                {repo: hdfgroup/hdf5, name: hdf5},
+                {repo: hypre-space/hypre, name: hypre},
+                {repo: berkeleylab/julienne, name: julienne},
+                {repo: kokkos/kokkos, name: kokkos},
+                {repo: kokkos/kokkos-kernels, name: kokkos-kernels},
+                {repo: stanfordlegion/legion, name: legion},
+                {repo: ceed/libceed, name: libceed},
+                {repo: libensemble/libensemble, name: libensemble},
+                {repo: llvm/llvm-project, name: llvm-project},
+                {repo: icl-utk-edu/magma, name: magma},
+                {repo: mfem/mfem, name: mfem},
+                {repo: pmodels/mpich, name: mpich},
+                {repo: open-mpi/ompi, name: ompi},
+                {repo: openaccusergroup/openaccv-v, name: openaccv-v},
+                {repo: openmp-validation-and-verification/openmp_vv, name: openmp_vv},
+                {repo: icl-utk-edu/papi, name: papi},
+                {repo: parallel-netcdf/pnetcdf, name: pnetcdf},
+                {repo: scorec/core, name: core},
+                {repo: scorec/omega_h, name: omega_h},
+                {repo: scorec/pumi-pic, name: pumi-pic},
+                {repo: scorec/pcms, name: pcms},
+                {repo: sandialabs/pytuq, name: pytuq},
+                {repo: spack/spack, name: spack},
+                {repo: pghysels/strumpack, name: strumpack},
+                {repo: llnl/sundials, name: sundials},
+                {repo: xiaoyeli/superlu_dist, name: superlu_dist},
+                {repo: xiaoyeli/superlu, name: superlu},
+                {repo: xiaoyeli/superlu_mt, name: superlu_mt},
+                {repo: uo-oaciss/tau2, name: tau2},
+                {repo: trilinos/trilinos, name: trilinos},
+                {repo: viskores/viskores, name: viskores},
+                {repo: llnl/zfp, name: zfp},
+                {repo: hpctoolkit/hpctoolkit, name: hpctoolkit},
+                {repo: kitware/paraview, name: paraview},
+                {repo: petsc/petsc, name: petsc},
+                {repo: anlsys/aml, name: aml},
+                {repo: berkeleylab/gasnet, name: gasnet},
+                {repo: berkeleylab/upcxx, name: upcxx},
+                {repo: deephyper/deephyper, name: deephyper},
+                {repo: e4s-project/e4s, name: e4s},
+                {repo: ebugger/empirical-roofline-toolkit, name: empirical-roofline-toolkit},
+                {repo: flang-compiler/flang, name: flang},
+                {repo: sandialabs/albany, name: albany},
+            ]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run Dependency Audit
+        uses: corsa-center/dependent-audit@08a6968943e47ace9477734cc100013b2484963f 
+        with:
+          root_repo: ${{ matrix.projects.repo }}
+          project_name: ${{ matrix.projects.name }}
+          sourcegraph_token: ${{ secrets.SOURCEGRAPH_TOKEN }}
+
+      - name: Commit Graph and Snippets
+        run: |
+          git config --global user.name "Audit Bot"
+          git config --global user.email "bot@noreply.github.com"
+          
+          if [ ! -d ${{ matrix.projects.name}}-dependency-context ]
+            mkdir ${{ matrix.projects.name}}-dependency-context
+          fi
+          mv dependency_graph.json ${{ matrix.projects.name}}-dependency-context/
+          mv spdx_snippets ${{ matrix.projects.name}}-dependency-context/
+          git add ${{ matrix.projects.name}}-dependency-context/dependency_graph.json
+          git add ${{ matrix.projects.name}}-dependency-context/spdx_snippets/*
+          
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update dependency graph and snippets for project ${{ matrix.projects.repo}}"
+            git push
+          else
+            echo "No changes detected."
+          fi
