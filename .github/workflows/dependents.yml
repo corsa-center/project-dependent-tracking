@@ -96,7 +96,7 @@ jobs:
           mv dependency_graph.json ${{ matrix.projects.name}}-dependency-context/
           mv spdx_snippets ${{ matrix.projects.name}}-dependency-context/
           git add ${{ matrix.projects.name}}-dependency-context/dependency_graph.json
-          git add ${{ matrix.projects.name}}-dependency-context/spdx_snippets/*
+          git add --ignore-errors ${{ matrix.projects.name}}-dependency-context/spdx_snippets/*
           
           if ! git diff --cached --quiet; then
             git commit -m "chore: update dependency graph and snippets for project ${{ matrix.projects.repo}}"
