@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "alpine-dav/ascent"
+  },
+  "nodes": [
+    {
+      "id": "alpine-dav/ascent",
+      "label": "ascent",
+      "type": "library",
+      "data": {
+        "packageName": "ascent",
+        "packageOwner": "alpine-dav",
+        "originUrl": "https://github.com/alpine-dav/ascent",
+        "commitSha": "f67dc0b80f2fa7bbb344d32af286be386235f0ab",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 234,
+        "contributors": 55,
+        "commits": 1211,
+        "lastUpdate": "2026-02-23T19:31:17Z",
+        "latestRelease": "2017-12-27T16:23:20Z",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "A flyweight in situ visualization and analysis runtime for multi-physics HPC simulations",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
