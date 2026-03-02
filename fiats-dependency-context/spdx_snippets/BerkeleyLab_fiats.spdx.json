@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "fiats Dependency Manifest",
+  "documentNamespace": "https://github.com/BerkeleyLab/fiats/spdx/0a2ff33cf8c06c6379d8e8883e846577a29f2f5e",
+  "packages": [
+    {
+      "name": "fiats",
+      "SPDXID": "SPDXRef-Package-BerkeleyLab-fiats",
+      "versionInfo": "0a2ff33cf8c06c6379d8e8883e846577a29f2f5e",
+      "downloadLocation": "git+https://github.com/BerkeleyLab/fiats.git@0a2ff33cf8c06c6379d8e8883e846577a29f2f5e",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "fiats",
+      "SPDXID": "SPDXRef-Package-berkeleylab-fiats",
+      "versionInfo": "0a2ff33cf8c06c6379d8e8883e846577a29f2f5e",
+      "downloadLocation": "git+https://github.com/berkeleylab/fiats.git@0a2ff33cf8c06c6379d8e8883e846577a29f2f5e",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-BerkeleyLab-fiats",
+      "relatedSpdxElement": "SPDXRef-Package-berkeleylab-fiats",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

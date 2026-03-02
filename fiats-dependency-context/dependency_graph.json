@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "root": "berkeleylab/fiats"
+  },
+  "nodes": [
+    {
+      "id": "berkeleylab/fiats",
+      "label": "fiats",
+      "type": "library",
+      "data": {
+        "packageName": "fiats",
+        "packageOwner": "berkeleylab",
+        "originUrl": "https://github.com/berkeleylab/fiats",
+        "commitSha": "0a2ff33cf8c06c6379d8e8883e846577a29f2f5e",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 70,
+        "contributors": 16,
+        "commits": 1269,
+        "lastUpdate": "2026-02-19T20:00:03Z",
+        "latestRelease": "2022-11-22T02:08:51Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "A deep learning library for use in high-performance computing applications in modern Fortran",
+        "paper": null
+      }
+    },
+    {
+      "id": "BerkeleyLab/fiats",
+      "label": "fiats",
+      "type": "consumer",
+      "data": {
+        "packageName": "fiats",
+        "packageOwner": "BerkeleyLab",
+        "originUrl": "/r/github.com/BerkeleyLab/fiats",
+        "commitSha": "0a2ff33cf8c06c6379d8e8883e846577a29f2f5e",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/BerkeleyLab_fiats.spdx.json",
+        "stars": 70,
+        "contributors": 16,
+        "commits": 1269,
+        "lastUpdate": "2026-02-19T20:00:03Z",
+        "latestRelease": "2022-11-22T02:08:51Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "A deep learning library for use in high-performance computing applications in modern Fortran",
+        "paper": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "BerkeleyLab/fiats",
+      "target": "berkeleylab/fiats"
+    }
+  ]
+}
