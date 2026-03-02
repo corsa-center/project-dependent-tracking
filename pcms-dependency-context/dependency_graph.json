@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "scorec/pcms"
+  },
+  "nodes": [
+    {
+      "id": "scorec/pcms",
+      "label": "pcms",
+      "type": "library",
+      "data": {
+        "packageName": "pcms",
+        "packageOwner": "scorec",
+        "originUrl": "https://github.com/scorec/pcms",
+        "commitSha": "e5e03a4c87a029654d52b34d0f556c18675fa970",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 3,
+        "contributors": 37,
+        "commits": 1298,
+        "lastUpdate": "2026-03-02T19:39:15Z",
+        "latestRelease": "",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "PCMS: Parallel Coupler For Multimodel Simulations",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
