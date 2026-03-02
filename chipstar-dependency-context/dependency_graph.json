@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "root": "chip-spv/chipstar"
+  },
+  "nodes": [
+    {
+      "id": "chip-spv/chipstar",
+      "label": "chipstar",
+      "type": "library",
+      "data": {
+        "packageName": "chipstar",
+        "packageOwner": "chip-spv",
+        "originUrl": "https://github.com/chip-spv/chipstar",
+        "commitSha": "cdd85e1800d9b946ee50931a17c1364093797c65",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 319,
+        "contributors": 19,
+        "commits": 3287,
+        "lastUpdate": "2026-03-02T14:12:08Z",
+        "latestRelease": "2022-09-30T11:52:03Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "chipStar is a tool for compiling and running HIP/CUDA on SPIR-V via OpenCL or Level Zero APIs.",
+        "paper": {
+          "title": "<i>chipStar</i>\n                    : Making HIP/CUDA applications cross-vendor portable by building on open standards",
+          "doi": "10.1177/10943420261423001",
+          "journal": "The International Journal of High Performance Computing Applications",
+          "citations": 0,
+          "url": "https://doi.org/10.1177/10943420261423001"
+        }
+      }
+    }
+  ],
+  "edges": []
+}
