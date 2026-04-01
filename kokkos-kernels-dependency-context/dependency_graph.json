@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "kokkos/kokkos-kernels"
+  },
+  "nodes": [
+    {
+      "id": "kokkos/kokkos-kernels",
+      "label": "kokkos-kernels",
+      "type": "library",
+      "data": {
+        "packageName": "kokkos-kernels",
+        "packageOwner": "kokkos",
+        "originUrl": "https://github.com/kokkos/kokkos-kernels",
+        "commitSha": "1c7fa7eb479e986c10a25232943237be45882af3",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 377,
+        "contributors": 74,
+        "commits": 6148,
+        "lastUpdate": "2026-03-31T22:34:51Z",
+        "latestRelease": "2020-03-05T19:38:52Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Kokkos C++ Performance Portability Programming Ecosystem: Math Kernels - Provides BLAS, Sparse BLAS and Graph Kernels",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
