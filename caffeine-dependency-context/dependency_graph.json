@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "root": "berkeleylab/caffeine"
+  },
+  "nodes": [
+    {
+      "id": "berkeleylab/caffeine",
+      "label": "caffeine",
+      "type": "library",
+      "data": {
+        "packageName": "caffeine",
+        "packageOwner": "berkeleylab",
+        "originUrl": "https://github.com/berkeleylab/caffeine",
+        "commitSha": "b49ea04489ca95ea7f780cc34bd6d8961975999e",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 58,
+        "contributors": 10,
+        "commits": 1194,
+        "lastUpdate": "2026-04-24T04:34:58Z",
+        "latestRelease": "2022-03-04T01:07:22Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "A parallel runtime library for Fortran compilers",
+        "paper": null
+      }
+    },
+    {
+      "id": "insufficiently-caffeinated/caffeine",
+      "label": "caffeine",
+      "type": "consumer",
+      "data": {
+        "packageName": "caffeine",
+        "packageOwner": "insufficiently-caffeinated",
+        "originUrl": "/r/github.com/insufficiently-caffeinated/caffeine",
+        "commitSha": "57cce7ddae05dd7d886937d4abdc12f2b1316061",
+        "depth": 1,
+        "snippetPath": "spdx_snippets/insufficiently-caffeinated_caffeine.spdx.json",
+        "stars": 52,
+        "contributors": 6,
+        "commits": 617,
+        "lastUpdate": "2026-03-10T19:33:07Z",
+        "latestRelease": "",
+        "license": "MIT License",
+        "isFork": false,
+        "description": "A symbolic execution engine for LLVM IR",
+        "paper": null
+      }
+    },
+    {
+      "id": "purine/purine2",
+      "label": "purine2",
+      "type": "consumer",
+      "data": {
+        "packageName": "purine2",
+        "packageOwner": "purine",
+        "originUrl": "/r/github.com/purine/purine2",
+        "commitSha": "e53447da173e83fb62bae8cf50bde17f75723203",
+        "depth": 2,
+        "snippetPath": "spdx_snippets/purine_purine2.spdx.json",
+        "stars": 258,
+        "contributors": 2,
+        "commits": 101,
+        "lastUpdate": "2026-04-18T00:47:31Z",
+        "latestRelease": "",
+        "license": "BSD 2-Clause \"Simplified\" License",
+        "isFork": false,
+        "description": "Purified Purine.",
+        "paper": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "insufficiently-caffeinated/caffeine",
+      "target": "berkeleylab/caffeine"
+    },
+    {
+      "source": "purine/purine2",
+      "target": "insufficiently-caffeinated/caffeine"
+    }
+  ]
+}

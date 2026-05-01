@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "purine2 Dependency Manifest",
+  "documentNamespace": "https://github.com/purine/purine2/spdx/e53447da173e83fb62bae8cf50bde17f75723203",
+  "packages": [
+    {
+      "name": "purine2",
+      "SPDXID": "SPDXRef-Package-purine-purine2",
+      "versionInfo": "e53447da173e83fb62bae8cf50bde17f75723203",
+      "downloadLocation": "git+https://github.com/purine/purine2.git@e53447da173e83fb62bae8cf50bde17f75723203",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "caffeine",
+      "SPDXID": "SPDXRef-Package-insufficiently-caffeinated-caffeine",
+      "versionInfo": "57cce7ddae05dd7d886937d4abdc12f2b1316061",
+      "downloadLocation": "git+https://github.com/insufficiently-caffeinated/caffeine.git@57cce7ddae05dd7d886937d4abdc12f2b1316061",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-purine-purine2",
+      "relatedSpdxElement": "SPDXRef-Package-insufficiently-caffeinated-caffeine",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
