@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "ceed/libceed"
+  },
+  "nodes": [
+    {
+      "id": "ceed/libceed",
+      "label": "libceed",
+      "type": "library",
+      "data": {
+        "packageName": "libceed",
+        "packageOwner": "ceed",
+        "originUrl": "https://github.com/ceed/libceed",
+        "commitSha": "bc0cf4a926ea3d9580467968fa9158c9a714ef54",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 252,
+        "contributors": 90,
+        "commits": 5721,
+        "lastUpdate": "2026-04-30T14:53:49Z",
+        "latestRelease": "2018-01-03T15:38:59Z",
+        "license": "BSD 2-Clause \"Simplified\" License",
+        "isFork": false,
+        "description": "CEED Library: Code for Efficient Extensible Discretizations",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
