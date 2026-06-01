@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "ginkgo-project/ginkgo"
+  },
+  "nodes": [
+    {
+      "id": "ginkgo-project/ginkgo",
+      "label": "ginkgo",
+      "type": "library",
+      "data": {
+        "packageName": "ginkgo",
+        "packageOwner": "ginkgo-project",
+        "originUrl": "https://github.com/ginkgo-project/ginkgo",
+        "commitSha": "d80252494505610758248f6abf8947197a45a842",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 598,
+        "contributors": 36,
+        "commits": 9120,
+        "lastUpdate": "2026-05-29T23:37:58Z",
+        "latestRelease": "2019-04-17T17:53:16Z",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "Numerical linear algebra software package",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
