@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "open-mpi/ompi"
+  },
+  "nodes": [
+    {
+      "id": "open-mpi/ompi",
+      "label": "ompi",
+      "type": "library",
+      "data": {
+        "packageName": "ompi",
+        "packageOwner": "open-mpi",
+        "originUrl": "https://github.com/open-mpi/ompi",
+        "commitSha": "2b8a29a6836ede717d14208950d2e91080eb64fc",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 2589,
+        "contributors": 323,
+        "commits": 35421,
+        "lastUpdate": "2026-05-30T22:00:39Z",
+        "latestRelease": "",
+        "license": "Other",
+        "isFork": false,
+        "description": "Open MPI main development repository",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
