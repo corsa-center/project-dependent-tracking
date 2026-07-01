@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "root": "xiaoyeli/superlu_dist"
+  },
+  "nodes": [
+    {
+      "id": "xiaoyeli/superlu_dist",
+      "label": "superlu_dist",
+      "type": "library",
+      "data": {
+        "packageName": "superlu_dist",
+        "packageOwner": "xiaoyeli",
+        "originUrl": "https://github.com/xiaoyeli/superlu_dist",
+        "commitSha": "1fd66dad5a1dfa0c4906010883a7fed92883555e",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 222,
+        "contributors": 31,
+        "commits": 1562,
+        "lastUpdate": "2026-06-26T00:38:29Z",
+        "latestRelease": "2021-10-21T04:34:16Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Distributed memory, MPI based SuperLU",
+        "paper": {
+          "title": "Newly Released Capabilities in the Distributed-Memory SuperLU Sparse Direct Solver",
+          "doi": "10.1145/3577197",
+          "journal": "ACM Transactions on Mathematical Software",
+          "citations": 23,
+          "url": "https://doi.org/10.1145/3577197"
+        }
+      }
+    }
+  ],
+  "edges": []
+}
