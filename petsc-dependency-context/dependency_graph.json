@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "petsc/petsc"
+  },
+  "nodes": [
+    {
+      "id": "petsc/petsc",
+      "label": "petsc",
+      "type": "library",
+      "data": {
+        "packageName": "petsc",
+        "packageOwner": "petsc",
+        "originUrl": "https://github.com/petsc/petsc",
+        "commitSha": "ebc60e7477ba4a9e72ec70373383fdd30ea7778e",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 520,
+        "contributors": 267,
+        "commits": 94433,
+        "lastUpdate": "2026-07-01T03:46:31Z",
+        "latestRelease": "",
+        "license": "Other",
+        "isFork": false,
+        "description": "Mirror of https://gitlab.com/petsc/petsc",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
