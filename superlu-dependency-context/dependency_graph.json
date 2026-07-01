@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "xiaoyeli/superlu"
+  },
+  "nodes": [
+    {
+      "id": "xiaoyeli/superlu",
+      "label": "superlu",
+      "type": "library",
+      "data": {
+        "packageName": "superlu",
+        "packageOwner": "xiaoyeli",
+        "originUrl": "https://github.com/xiaoyeli/superlu",
+        "commitSha": "53afbff31d4a5340bb71aa15cf8a9186a7049c99",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 330,
+        "contributors": 28,
+        "commits": 381,
+        "lastUpdate": "2026-04-28T18:40:38Z",
+        "latestRelease": "2021-09-30T01:29:15Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Supernodal sparse direct solver.  https://portal.nersc.gov/project/sparse/superlu/",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
