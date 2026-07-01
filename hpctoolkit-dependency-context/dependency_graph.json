@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "hpctoolkit/hpctoolkit"
+  },
+  "nodes": [
+    {
+      "id": "hpctoolkit/hpctoolkit",
+      "label": "hpctoolkit",
+      "type": "library",
+      "data": {
+        "packageName": "hpctoolkit",
+        "packageOwner": "hpctoolkit",
+        "originUrl": "https://github.com/hpctoolkit/hpctoolkit",
+        "commitSha": "5fb7d6bd7ae274abcb08d0e688e61d22ba590a62",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 345,
+        "contributors": 12,
+        "commits": 1,
+        "lastUpdate": "2026-06-18T09:28:33Z",
+        "latestRelease": "2017-01-02T05:44:54Z",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "HPCToolkit performance tools: measurement and analysis components",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
