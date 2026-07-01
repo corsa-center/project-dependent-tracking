@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "ebugger/empirical-roofline-toolkit"
+  },
+  "nodes": [
+    {
+      "id": "ebugger/empirical-roofline-toolkit",
+      "label": "empirical-roofline-toolkit",
+      "type": "library",
+      "data": {
+        "packageName": "empirical-roofline-toolkit",
+        "packageOwner": "ebugger",
+        "originUrl": "https://github.com/ebugger/empirical-roofline-toolkit",
+        "commitSha": "0771fa9621d0e55a5b7542271a37e7c6b0b9c780",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 25,
+        "contributors": 1,
+        "commits": 5,
+        "lastUpdate": "2025-12-11T22:07:48Z",
+        "latestRelease": "",
+        "license": "Other",
+        "isFork": false,
+        "description": "Forked from https://bitbucket.org/berkeleylab/cs-roofline-toolkit/src/master/",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
