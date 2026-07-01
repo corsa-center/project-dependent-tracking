@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "kitware/paraview"
+  },
+  "nodes": [
+    {
+      "id": "kitware/paraview",
+      "label": "paraview",
+      "type": "library",
+      "data": {
+        "packageName": "paraview",
+        "packageOwner": "kitware",
+        "originUrl": "https://github.com/kitware/paraview",
+        "commitSha": "595be493bdaf0e24cccb049e0dc82ec115be2f61",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 1647,
+        "contributors": 211,
+        "commits": 86410,
+        "lastUpdate": "2026-07-01T03:27:21Z",
+        "latestRelease": "",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "VTK-based Data Analysis and Visualization Application",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
