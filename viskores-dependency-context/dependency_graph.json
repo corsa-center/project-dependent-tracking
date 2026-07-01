@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "viskores/viskores"
+  },
+  "nodes": [
+    {
+      "id": "viskores/viskores",
+      "label": "viskores",
+      "type": "library",
+      "data": {
+        "packageName": "viskores",
+        "packageOwner": "viskores",
+        "originUrl": "https://github.com/viskores/viskores",
+        "commitSha": "d9b6e937bddf7a96fb0d8f6488ae2669276821bf",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 78,
+        "contributors": 41,
+        "commits": 12086,
+        "lastUpdate": "2026-06-30T16:58:50Z",
+        "latestRelease": "2025-04-15T22:16:00Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "A visualization library for many-threaded devices.",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
