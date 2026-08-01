@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "root": "llnl/zfp"
+  },
+  "nodes": [
+    {
+      "id": "llnl/zfp",
+      "label": "zfp",
+      "type": "library",
+      "data": {
+        "packageName": "zfp",
+        "packageOwner": "llnl",
+        "originUrl": "https://github.com/llnl/zfp",
+        "commitSha": "c0c2c40b30d99f1787664b51c593fb6e0d729253",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 874,
+        "contributors": 42,
+        "commits": 1207,
+        "lastUpdate": "2026-07-31T19:43:23Z",
+        "latestRelease": "2017-09-29T22:03:35Z",
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "isFork": false,
+        "description": "Compressed numerical arrays that support high-speed random access",
+        "paper": {
+          "title": "Error Analysis of ZFP Compression for Floating-Point Data",
+          "doi": "10.1137/18M1168832",
+          "journal": "SIAM Journal on Scientific Computing",
+          "citations": 79,
+          "url": "https://doi.org/10.1137/18m1168832"
+        }
+      }
+    }
+  ],
+  "edges": []
+}
