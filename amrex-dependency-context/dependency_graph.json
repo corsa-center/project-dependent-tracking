@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "amrex-codes/amrex"
+  },
+  "nodes": [
+    {
+      "id": "amrex-codes/amrex",
+      "label": "amrex",
+      "type": "library",
+      "data": {
+        "packageName": "amrex",
+        "packageOwner": "amrex-codes",
+        "originUrl": "https://github.com/amrex-codes/amrex",
+        "commitSha": "f2cbba4afc9eb3cc0a68b311112def524ada8cd3",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 797,
+        "contributors": 202,
+        "commits": 28145,
+        "lastUpdate": "2026-08-31T16:40:19Z",
+        "latestRelease": "2019-02-01T21:57:26Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "AMReX: Software Framework for Block Structured AMR",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
