@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "xiaoyeli/superlu_mt"
+  },
+  "nodes": [
+    {
+      "id": "xiaoyeli/superlu_mt",
+      "label": "superlu_mt",
+      "type": "library",
+      "data": {
+        "packageName": "superlu_mt",
+        "packageOwner": "xiaoyeli",
+        "originUrl": "https://github.com/xiaoyeli/superlu_mt",
+        "commitSha": "83243793ce70f1dd117d601499f1dba3e7ac835a",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 38,
+        "contributors": 7,
+        "commits": 69,
+        "lastUpdate": "2026-06-08T00:01:18Z",
+        "latestRelease": "2024-04-24T00:48:12Z",
+        "license": "Other",
+        "isFork": false,
+        "description": null,
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
