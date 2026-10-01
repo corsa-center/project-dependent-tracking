@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "ornladios/adios2"
+  },
+  "nodes": [
+    {
+      "id": "ornladios/adios2",
+      "label": "adios2",
+      "type": "library",
+      "data": {
+        "packageName": "adios2",
+        "packageOwner": "ornladios",
+        "originUrl": "https://github.com/ornladios/adios2",
+        "commitSha": "2b5d879c5a50f2cdb52a8187f5c646f1e4c7061f",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 328,
+        "contributors": 89,
+        "commits": 11571,
+        "lastUpdate": "2026-09-30T00:20:27Z",
+        "latestRelease": "2017-06-30T20:45:34Z",
+        "license": "Apache License 2.0",
+        "isFork": false,
+        "description": "Next generation of ADIOS developed in the Exascale Computing Program",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
