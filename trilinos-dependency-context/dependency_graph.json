@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "root": "trilinos/trilinos"
+  },
+  "nodes": [
+    {
+      "id": "trilinos/trilinos",
+      "label": "trilinos",
+      "type": "library",
+      "data": {
+        "packageName": "trilinos",
+        "packageOwner": "trilinos",
+        "originUrl": "https://github.com/trilinos/trilinos",
+        "commitSha": "3347df29ad602863b53d50c8d184ea851a9304f3",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 1440,
+        "contributors": 319,
+        "commits": 107254,
+        "lastUpdate": "2026-10-28T21:49:15Z",
+        "latestRelease": "2019-10-23T22:31:03Z",
+        "license": "Other",
+        "isFork": false,
+        "description": "Primary repository for the Trilinos Project",
+        "paper": {
+          "title": "Trilinos: Enabling Scientific Computing across Diverse Hardware Architectures at Scale",
+          "doi": "10.1145/3802822",
+          "journal": "ACM Transactions on Mathematical Software",
+          "citations": 9,
+          "url": "https://doi.org/10.1145/3802822"
+        }
+      }
+    }
+  ],
+  "edges": []
+}
