@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "root": "openmp-validation-and-verification/openmp_vv"
+  },
+  "nodes": [
+    {
+      "id": "openmp-validation-and-verification/openmp_vv",
+      "label": "openmp_vv",
+      "type": "library",
+      "data": {
+        "packageName": "openmp_vv",
+        "packageOwner": "openmp-validation-and-verification",
+        "originUrl": "https://github.com/openmp-validation-and-verification/openmp_vv",
+        "commitSha": "09662b4233265647a70ca2a00cc3c4c7ac750e5d",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 63,
+        "contributors": 38,
+        "commits": 1713,
+        "lastUpdate": "2026-10-29T19:20:17Z",
+        "latestRelease": "",
+        "license": "Other",
+        "isFork": false,
+        "description": "OpenMP Offloading Validation & Verification Suite; Official repository. We have migrated from bitbucket!! For documentation, results, publication and presentations, please check out our website ->",
+        "paper": {
+          "title": "ECP SOLLVE: Validation and Verification Testsuite Status Update and Compiler Insight for OpenMP",
+          "doi": "10.1109/P3HPC56579.2022.00017",
+          "journal": "2022 IEEE/ACM International Workshop on Performance, Portability and Productivity in HPC (P3HPC)",
+          "citations": 9,
+          "url": "https://doi.org/10.1109/p3hpc56579.2022.00017"
+        }
+      }
+    }
+  ],
+  "edges": []
+}
