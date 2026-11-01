@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "root": "dyninst/dyninst"
+  },
+  "nodes": [
+    {
+      "id": "dyninst/dyninst",
+      "label": "dyninst",
+      "type": "library",
+      "data": {
+        "packageName": "dyninst",
+        "packageOwner": "dyninst",
+        "originUrl": "https://github.com/dyninst/dyninst",
+        "commitSha": "d9efaa1fec9d5e0050546ccd691b719cefda7ff7",
+        "depth": 0,
+        "snippetPath": "",
+        "stars": 840,
+        "contributors": 61,
+        "commits": 21643,
+        "lastUpdate": "2026-10-30T15:58:35Z",
+        "latestRelease": "2016-06-29T21:28:36Z",
+        "license": "GNU Lesser General Public License v2.1",
+        "isFork": false,
+        "description": "DyninstAPI: Tools for binary instrumentation, analysis, and modification.",
+        "paper": null
+      }
+    }
+  ],
+  "edges": []
+}
